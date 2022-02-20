@@ -1,4 +1,18 @@
 # travismfrank
-Frontend of personal website.  Built with:
+Static frontend of travismfrank.com.
 
-- react
+## Startup
+Install dependencies
+
+```zsh
+npm i
+```
+
+Run dev server
+
+```zsh
+npm run dev
+```
+
+Dev server at localhost:3000
+
