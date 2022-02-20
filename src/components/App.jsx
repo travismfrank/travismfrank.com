@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
+import NavigationButton from './navigation/NavigationButton';
 
 function App() {
 
   return (
-    <div className="App"></div>
+    <div className="App">
+      <NavigationButton />
+    </div>
   )
 }
 
-export default App
+export default App;
