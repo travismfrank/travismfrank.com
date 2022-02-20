@@ -3,7 +3,7 @@ import './App.css';
 import NavigationButton from './navigation/NavigationButton';
 
 function App() {
-  const [navOpen, setNavOpen] = useState(false);
+  const [navMenuOpen, setNavMenuOpen] = useState(false);
 
   return (
     <div className="App">
