@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Landing from './landing/Landing';
 import NavigationButton from './navigation/NavigationButton';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <div className="App">
+      <Landing />
       <NavigationButton />
     </div>
   )
