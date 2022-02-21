@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-src/assets/local_photos
+src/assets/local
 
 # Editor directories and files
 .vscode/*

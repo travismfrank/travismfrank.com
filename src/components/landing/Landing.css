@@ -1,0 +1,55 @@
+.landing-container {
+  background-color: #76dae9;
+  height: 100%;
+}
+
+/* Typewriter */
+
+#typewriter {
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  white-space: pre-wrap;
+  padding: 1rem;
+}
+
+/* Cursor */
+
+.cursor {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.cursor::after {
+  content: '';
+  height: 2rem;
+  width: 0.1rem;
+  display: inline-block;
+  margin-left: 3px;
+  background-color: black;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Headshot */
+
+#landing-headshot {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
