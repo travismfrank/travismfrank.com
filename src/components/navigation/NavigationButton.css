@@ -1,7 +1,50 @@
 #nav-button {
-  fill: #76dae9;
-  position: fixed;
-  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  left: 1.5rem;
   bottom: 20px;
-  left: 25px;
+  position: absolute;
+}
+
+.bar-one,
+.bar-two,
+.bar-three {
+  width: 2rem;
+  height: 0.25rem;
+  background: #76dae9;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+/* Bar Animation */
+
+.bar-one,
+.bar-three {
+  transform: rotate(0);
+}
+
+.bar-two {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.open > .bar-one {
+  transform: rotate(45deg);
+}
+
+.open > .bar-two {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.open > .bar-three {
+  transform: rotate(-45deg);
 }

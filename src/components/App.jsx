@@ -4,12 +4,15 @@ import Landing from './landing/Landing';
 import NavigationButton from './navigation/NavigationButton';
 
 function App() {
-  const [navMenuOpen, setNavMenuOpen] = useState(false);
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   return (
     <div className="App">
       <Landing />
-      <NavigationButton />
+      <NavigationButton 
+        mobileNavOpen={mobileNavOpen}
+        setMobileNavOpen={setMobileNavOpen}
+      />
     </div>
   )
 }
