@@ -2,16 +2,21 @@ import { useState } from 'react';
 import './App.css';
 import Landing from './landing/Landing';
 import NavigationButton from './navigation/NavigationButton';
+import NavigationMenu from './navigation/NavigationMenu';
 
 function App() {
-  const [navMenuOpen, setNavMenuOpen] = useState(false);
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   return (
     <div className="App">
       <Landing />
-      <NavigationButton />
+      <NavigationButton 
+        mobileNavOpen={mobileNavOpen}
+        setMobileNavOpen={setMobileNavOpen}
+      />
+      <NavigationMenu open={mobileNavOpen} />
     </div>
-  )
+  );
 }
 
 export default App;
