@@ -1,17 +1,15 @@
 import classNames from 'classNames';
 import './NavigationButton.css'
 
-function NavigationButton(props) {
-  const { mobileNavOpen, setMobileNavOpen } = props;
-
-  const navClass = classNames({
+function NavigationButton({ mobileNavOpen, setMobileNavOpen }) {
+  const navButtonClass = classNames({
     open: mobileNavOpen,
   });
 
   return (
     <button 
       id="nav-button"
-      className={navClass}
+      className={navButtonClass}
       onClick={() => {
         setMobileNavOpen((mobileNavOpen) => !mobileNavOpen);
       }}
@@ -20,7 +18,7 @@ function NavigationButton(props) {
       <div className="bar-two" />
       <div className="bar-three" />
     </button>
-  )
+  );
 }
 
 export default NavigationButton;

@@ -12,6 +12,8 @@ function Landing() {
         speedWait = 975, // Wait between typing and backspacing
         speedBackspace = 25;
 
+  // % = Stop backspacing here
+  // * = Start backspacing here
   const text = "Hi! I'm Travis.||I write software, design systems, " +
                "and% build organizations*% create experiences* con" +
                "duct orchestras.";
