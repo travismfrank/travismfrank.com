@@ -3,6 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
+import Landing from './landing/Landing';
+
 import Bio from './about/Bio';
 import Leadership from './about/Leadership';
 import Principles from './about/Principles';
@@ -21,7 +23,7 @@ import Climate from './climate/Climate';
 
 import Contact from './contact/Contact';
 
-import Landing from './landing/Landing';
+import PageNotFound from './errors/PageNotFound';
 
 import NavigationButton from './navigation/NavigationButton';
 import NavigationMenu from './navigation/NavigationMenu';
@@ -55,8 +57,9 @@ function App() {
           </Route>
           <Route path="theatre-credits" element={<TheatreCredits />} />
         </Route>
-        <Route path="climate" element={<Climate />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/climate" element={<Climate />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <NavigationButton 
         mobileNavOpen={mobileNavOpen}
