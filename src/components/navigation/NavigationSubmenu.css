@@ -1,13 +1,45 @@
 .nav-submenu {
+  background-color: #76dae9;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
+  overflow: hidden;
   padding: 1rem;
 }
 
 .nav-submenu > .nav-link {
   font-size: 1.5rem;
   padding-right: 6.7rem;
+}
+
+.nav-submenu.enter {
+  max-height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0;
+}
+
+.nav-submenu.enter-active {
+  max-height: 12rem;
+  opacity: 1;
+  visibility: visible;
+  padding: 1rem;
+  transition: max-height 0.75s, opacity 0.75s, visibility 0.75s, padding 0.75s;
+}
+
+.nav-submenu.exit {
+  max-height: 12rem;
+  opacity: 1;
+  visibility: visible;
+  padding: 1rem;
+}
+
+.nav-submenu.exit-active {
+  max-height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  padding: 0;
+  transition: max-height 0.75s, opacity 0.75s, visibility 0.75s, padding 0.75s;
 }

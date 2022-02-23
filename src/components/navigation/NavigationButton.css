@@ -11,6 +11,7 @@
   left: 1.5rem;
   bottom: 20px;
   position: absolute;
+  cursor: pointer;
 }
 
 .bar-one,
