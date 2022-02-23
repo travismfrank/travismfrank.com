@@ -20,22 +20,3 @@
   visibility: visible;
   height: 100vh;
 }
-
-.nav-link {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  text-align: right;
-  text-decoration: none;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 2rem;
-  color: black;
-  padding: 0.5rem;
-  border-radius: 3px;
-  margin: 0 0.5rem;
-}
-
-.nav-icon {
-  padding-left: 1.2rem;
-}

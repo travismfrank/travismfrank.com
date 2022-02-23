@@ -1,54 +1,94 @@
 import classNames from 'classNames';
+import { useState } from 'react';
 import {
-  GiCandlestickPhone,
-  GiCableStayedBridge,
-  GiSpaceNeedle,
-  GiEarthAmerica,
   GiBookshelf,
+  GiCandlestickPhone,
+  GiCheckboxTree,
+  GiDirectorChair,
+  GiEarthAmerica,
+  GiGrandPiano,
+  GiHeadphones,
   GiHobbitDoor,
-  GiSoundWaves
+  GiPencil,
+  GiProcessor,
+  GiSaxophone,
+  GiScales,
+  GiSoundWaves,
+  GiSpaceNeedle,
+  GiSkills,
+  GiTheaterCurtains
 } from 'react-icons/gi'
 import './NavigationMenu.css';
+import NavigationSubmenu from './NavigationSubmenu';
+import NavigationItem from './NavigationItem';
 
 function NavigationMenu({ open }) {
+  const [openSubmenu, setOpenSubmenu] = useState('about');
+
   const navMenuClass = classNames({
     open: open,
   });
 
+  function createClickHandler(submenu) {
+    return function() {
+      if (openSubmenu === submenu) {
+        setOpenSubmenu('');
+      } else {
+        setOpenSubmenu(submenu);
+      }
+    }
+  }
+
   return (
-    <nav 
+    <nav
       aria-label="navigation"
       id="nav-wrapper"
       className={navMenuClass}
     >
-      <div className="nav-link">
-        Home
-        <GiHobbitDoor className="nav-icon" />
-      </div>
-      <div className="nav-link">
-        About
-        <GiSpaceNeedle className="nav-icon" />
-      </div>
-      <div className="nav-link">
-        Writing
-        <GiBookshelf className="nav-icon" />
-      </div>
-      <div className="nav-link">
-        Open Source
-        <GiCableStayedBridge className="nav-icon" />
-      </div>
-      <div className="nav-link">
-        Music
-        <GiSoundWaves className="nav-icon" />
-      </div>
-      <div className="nav-link">
-        Climate
-        <GiEarthAmerica className="nav-icon" />
-      </div>
-      <div className="nav-link">
-        Contact
-        <GiCandlestickPhone className="nav-icon" />
-      </div>
+      <NavigationItem text={"Home"} Icon={GiHobbitDoor} />
+      <NavigationItem
+        onClick={createClickHandler('about')}
+        text={"About"}
+        Icon={GiSpaceNeedle}
+      />
+      {
+        openSubmenu === 'about' &&
+        <NavigationSubmenu>
+          <NavigationItem text={"Bio"} Icon={GiSkills} />
+          <NavigationItem text={"Principles"} Icon={GiScales} />
+          <NavigationItem text={"Leadership"} Icon={GiDirectorChair} />
+        </NavigationSubmenu>
+      }
+      <NavigationItem
+        onClick={createClickHandler('writing')}
+        text={"Writing"}
+        Icon={GiBookshelf}
+      />
+      {
+        openSubmenu === 'writing' &&
+        <NavigationSubmenu>
+          <NavigationItem text={"Words"} Icon={GiPencil} />
+          <NavigationItem text={"Musicals"} Icon={GiTheaterCurtains} />
+          <NavigationItem text={"Jazz"} Icon={GiSaxophone} />
+        </NavigationSubmenu>
+      }
+      <NavigationItem text={"Open Source"} Icon={GiProcessor} />
+      <NavigationItem
+        onClick={createClickHandler('music')}
+        text={"Music"}
+        Icon={GiSoundWaves}
+      />
+      {
+        openSubmenu === 'music' &&
+        <NavigationSubmenu>
+          <NavigationItem text={"Musicals"} Icon={GiTheaterCurtains} />
+          <NavigationItem text={"Live Reels"} Icon={GiGrandPiano} />
+          <NavigationItem text={"Recordings"} Icon={GiHeadphones} />
+          <NavigationItem text={"Theatre Credits"} Icon={GiCheckboxTree} />
+        </NavigationSubmenu>
+      }
+      <NavigationItem text={"Climate"} Icon={GiEarthAmerica} />
+      <NavigationItem text={"Contact"} Icon={GiCandlestickPhone} />
     </nav>
   );
 }
