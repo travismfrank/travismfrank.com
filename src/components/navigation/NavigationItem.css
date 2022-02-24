@@ -11,6 +11,11 @@
   padding: 0.5rem;
   border-radius: 3px;
   margin: 0 0.5rem;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
   cursor: pointer;
 }
 
