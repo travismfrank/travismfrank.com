@@ -1,7 +1,12 @@
+import BannerShell from '../shells/BannerShell';
+
 function Bio() {
   return (
-    <div>
-    </div>
+    <BannerShell
+      bannerSrc="../../../src/assets/local/bio.jpg"
+      titleText="Biography"
+    >
+    </BannerShell>
   );
 }
 

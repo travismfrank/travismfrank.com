@@ -1,0 +1,14 @@
+.banner-shell-wrapper {
+  height: 100%;
+}
+
+.shell-title {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.banner {
+  width: 100vw;
+  margin-bottom: 1.5rem;
+}
