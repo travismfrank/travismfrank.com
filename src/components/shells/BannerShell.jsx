@@ -6,6 +6,7 @@ function BannerShell({ bannerSrc, children, titleText }) {
       <h1 className="shell-title">{titleText}</h1>
       <img src={bannerSrc} className="banner" />
       {children}
+      <div className="banner-shell-footer" />
     </div>
   );
 }
