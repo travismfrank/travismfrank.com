@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+
 import './Landing.css';
 
 function Landing() {
@@ -8,21 +9,23 @@ function Landing() {
   const [backspacingIndex, setBackspacingIndex] = useState(0);
 
   // Typing speed (ms)
-  const speedForward = 100,
-        speedWait = 975, // Wait between typing and backspacing
+  const speedForward = 80,
+        speedWait = 950, // Wait between typing and backspacing
         speedBackspace = 25;
 
   // % = Stop backspacing here
   // * = Start backspacing here
-  const text = "Hi! I'm Travis.||I write software, design systems, " +
-               "and% build organizations*% create experiences* con" +
-               "duct orchestras.";
+  // # = Wait here
+  const text = "Hi! I'm Travis.||I write% words*% music* software,#" +
+               " design% interfaces* systems,# and% build organizat" +
+               "ions*% create experiences* conduct orchestras.";
 
   async function typewriter() {
     const sleep = delay => new Promise((resolve) => setTimeout(resolve, delay));
 
     if (!isBackspacing) {
-      await sleep(speedForward);
+      // Add jitter to make it more human
+      await sleep(speedForward * Math.random() * (1 + Math.random()));
 
       if (index < text.length) {
         if (text[index] == '|') {
@@ -33,6 +36,8 @@ function Landing() {
           setBackspacingIndex(index - 1);
         } else if (text[index] == '%') {
           // Do nothing, flag for backspacing
+        } else if (text[index] == '#') {
+          await sleep(speedWait);
         } else {
           setContents(contents + text[index]);
         }
@@ -61,8 +66,8 @@ function Landing() {
         <h1 className="cursor">{contents}</h1>
       </div>
       <img id="landing-headshot"
-             src="../../../src/assets/local/landing_headshot.jpg"
-             alt="travis-headshot"
+           src="../../../src/assets/local/landing_headshot.jpg"
+           alt="travis-headshot"
       />
     </div>
   )
