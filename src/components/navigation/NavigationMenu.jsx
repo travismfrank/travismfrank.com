@@ -65,7 +65,7 @@ function NavigationMenu({ open, setOpen }) {
       />
       <CSSTransition
         in={openSubmenu === 'about'}
-        timeout={750}
+        timeout={500}
         unmountOnExit
       >
         <NavigationSubmenu>
@@ -96,7 +96,7 @@ function NavigationMenu({ open, setOpen }) {
       />
       <CSSTransition
         in={openSubmenu === 'writing'}
-        timeout={750}
+        timeout={500}
         unmountOnExit
       >
         <NavigationSubmenu>

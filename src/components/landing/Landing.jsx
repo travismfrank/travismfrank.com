@@ -9,16 +9,15 @@ function Landing() {
   const [backspacingIndex, setBackspacingIndex] = useState(0);
 
   // Typing speed (ms)
-  const speedForward = 80,
-        speedWait = 950, // Wait between typing and backspacing
+  const speedForward = 45,
+        speedWait = 500, // Wait between typing and backspacing
         speedBackspace = 25;
 
   // % = Stop backspacing here
   // * = Start backspacing here
   // # = Wait here
-  const text = "Hi! I'm Travis.||I write% words*% music* software,#" +
-               " design% interfaces* systems,# and% build organizat" +
-               "ions*% create experiences* conduct orchestras.";
+  const text = "Hi! I'm Travis.#||I write software,# %solve problems*%build" +
+               " solutions*design systems,# and conduct orchestras.";
 
   async function typewriter() {
     const sleep = delay => new Promise((resolve) => setTimeout(resolve, delay));
@@ -32,7 +31,7 @@ function Landing() {
           setContents(contents + '\n');
         } else if (text[index] == '*') {
           setIsBackspacing(true);
-          await sleep(speedWait);
+          await sleep(speedWait / 2);
           setBackspacingIndex(index - 1);
         } else if (text[index] == '%') {
           // Do nothing, flag for backspacing

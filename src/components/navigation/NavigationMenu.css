@@ -11,7 +11,7 @@
   opacity: 0;
   visibility: hidden;
   height: 0%;
-  transition: opacity 0.75s, visibility 0.75s, height 0.75s;
+  transition: opacity 0.5s, visibility 0.5s, height 0.5s;
   overflow: hidden;
 }
 
