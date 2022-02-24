@@ -1,4 +1,6 @@
+import './Bio.css';
 import BannerShell from '../shells/BannerShell';
+import SectionToggle from '../shells/SectionToggle';
 
 function Bio() {
   return (
@@ -6,6 +8,9 @@ function Bio() {
       bannerSrc="../../../src/assets/local/bio.jpg"
       titleText="Biography"
     >
+      <SectionToggle open={false} sectionTitle="Fast Facts">
+        <p>Hello</p>
+      </SectionToggle>
     </BannerShell>
   );
 }
