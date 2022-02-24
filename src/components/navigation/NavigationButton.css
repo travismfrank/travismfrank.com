@@ -10,7 +10,7 @@
   padding: 0;
   left: 1.5rem;
   bottom: 20px;
-  position: absolute;
+  position: fixed;
   cursor: pointer;
 }
 
@@ -19,7 +19,7 @@
 .bar-three {
   width: 2rem;
   height: 0.25rem;
-  background: #76dae9;
+  background: black;
   border-radius: 10px;
   transition: all 0.3s linear;
   position: relative;
