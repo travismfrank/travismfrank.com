@@ -19,18 +19,19 @@ import {
   GiTheaterCurtains
 } from 'react-icons/gi'
 import { CSSTransition } from 'react-transition-group';
+
 import './NavigationMenu.css';
 import NavigationSubmenu from './NavigationSubmenu';
 import NavigationItem from './NavigationItem';
 
-function NavigationMenu({ open }) {
+function NavigationMenu({ open, setOpen }) {
   const [openSubmenu, setOpenSubmenu] = useState('');
 
   const navMenuClass = classNames({
     open: open,
   });
 
-  function createClickHandler(submenu) {
+  function createSubmenuClickHandler(submenu) {
     return function() {
       if (openSubmenu === submenu) {
         setOpenSubmenu('');
@@ -40,17 +41,27 @@ function NavigationMenu({ open }) {
     }
   }
 
+  function linkClickHandler() {
+    setOpenSubmenu('');
+    setOpen(false);
+  }
+
   return (
     <nav
       aria-label="navigation"
       id="nav-wrapper"
       className={navMenuClass}
     >
-      <NavigationItem text={"Home"} Icon={GiHobbitDoor} />
       <NavigationItem
-        onClick={createClickHandler('about')}
-        text={"About"}
+        Icon={GiHobbitDoor}
+        linkTarget={"/"}
+        onClick={linkClickHandler}
+        text={"Home"}
+      />
+      <NavigationItem
         Icon={GiSpaceNeedle}
+        onClick={createSubmenuClickHandler('about')}
+        text={"About"}
       />
       <CSSTransition
         in={openSubmenu === 'about'}
@@ -58,15 +69,30 @@ function NavigationMenu({ open }) {
         unmountOnExit
       >
         <NavigationSubmenu>
-          <NavigationItem text={"Bio"} Icon={GiSkills} />
-          <NavigationItem text={"Principles"} Icon={GiScales} />
-          <NavigationItem text={"Leadership"} Icon={GiDirectorChair} />
+          <NavigationItem
+            Icon={GiSkills}
+            linkTarget={"/about/bio"}
+            onClick={linkClickHandler}
+            text={"Bio"}
+          />
+          <NavigationItem
+            Icon={GiScales}
+            linkTarget={"/about/principles"}
+            onClick={linkClickHandler}
+            text={"Principles"}
+          />
+          <NavigationItem
+            Icon={GiDirectorChair}
+            linkTarget={"/about/leadership"}
+            onClick={linkClickHandler}
+            text={"Leadership"}
+          />
         </NavigationSubmenu>
       </CSSTransition>
       <NavigationItem
-        onClick={createClickHandler('writing')}
-        text={"Writing"}
         Icon={GiBookshelf}
+        onClick={createSubmenuClickHandler('writing')}
+        text={"Writing"}
       />
       <CSSTransition
         in={openSubmenu === 'writing'}
@@ -74,16 +100,36 @@ function NavigationMenu({ open }) {
         unmountOnExit
       >
         <NavigationSubmenu>
-          <NavigationItem text={"Words"} Icon={GiPencil} />
-          <NavigationItem text={"Musicals"} Icon={GiTheaterCurtains} />
-          <NavigationItem text={"Jazz"} Icon={GiSaxophone} />
+          <NavigationItem
+            Icon={GiPencil}
+            linkTarget={"/writing/feed"}
+            onClick={linkClickHandler}
+            text={"Words"}
+          />
+          <NavigationItem
+            Icon={GiTheaterCurtains}
+            linkTarget={"/music/musicals"}
+            onClick={linkClickHandler}
+            text={"Musicals"}
+          />
+          <NavigationItem
+            Icon={GiSaxophone}
+            linkTarget={"/music/records/sketching-the-sky"}
+            onClick={linkClickHandler}
+            text={"Jazz"}
+          />
         </NavigationSubmenu>
       </CSSTransition>
-      <NavigationItem text={"Open Source"} Icon={GiProcessor} />
       <NavigationItem
-        onClick={createClickHandler('music')}
-        text={"Music"}
+        Icon={GiProcessor}
+        linkTarget={"/open-source"}
+        onClick={linkClickHandler}
+        text={"Open Source"}
+      />
+      <NavigationItem
         Icon={GiSoundWaves}
+        onClick={createSubmenuClickHandler('music')}
+        text={"Music"}
       />
       <CSSTransition
         in={openSubmenu === 'music'}
@@ -91,14 +137,44 @@ function NavigationMenu({ open }) {
         unmountOnExit
       >
         <NavigationSubmenu>
-          <NavigationItem text={"Musicals"} Icon={GiTheaterCurtains} />
-          <NavigationItem text={"Live Reels"} Icon={GiGrandPiano} />
-          <NavigationItem text={"Recordings"} Icon={GiHeadphones} />
-          <NavigationItem text={"Theatre Credits"} Icon={GiMusicSpell} />
+          <NavigationItem
+            Icon={GiTheaterCurtains}
+            linkTarget={"/music/musicals"}
+            onClick={linkClickHandler}
+            text={"Musicals"}
+          />
+          <NavigationItem
+            Icon={GiGrandPiano}
+            linkTarget={"/music/reels"}
+            onClick={linkClickHandler}
+            text={"Live Reels"}
+          />
+          <NavigationItem
+            Icon={GiHeadphones}
+            linkTarget={"/music/recordings"}
+            onClick={linkClickHandler}
+            text={"Recordings"}
+          />
+          <NavigationItem
+            Icon={GiMusicSpell}
+            linkTarget={"/music/theatre-credits"}
+            onClick={linkClickHandler}
+            text={"Theatre Credits"}
+          />
         </NavigationSubmenu>
       </CSSTransition>
-      <NavigationItem text={"Climate"} Icon={GiEarthAmerica} />
-      <NavigationItem text={"Contact"} Icon={GiCandlestickPhone} />
+      <NavigationItem
+        Icon={GiEarthAmerica}
+        linkTarget={"/climate"}
+        onClick={linkClickHandler}
+        text={"Climate"}
+      />
+      <NavigationItem
+        Icon={GiCandlestickPhone}
+        linkTarget={"/contact"}
+        onClick={linkClickHandler}
+        text={"Contact"}
+      />
     </nav>
   );
 }
