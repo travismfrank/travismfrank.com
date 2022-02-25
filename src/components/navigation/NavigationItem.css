@@ -14,9 +14,11 @@
 }
 
 .nav-link a {
-  text-decoration: none;
-  color: black;
   cursor: pointer;
+}
+
+.nav-link a::before, .nav-link a::after {
+  height: 0;
 }
 
 .nav-icon {

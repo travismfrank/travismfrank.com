@@ -1,5 +1,10 @@
 .banner-shell-wrapper {
   height: 100%;
+  width: 100%;
+}
+
+.banner-shell-content-wrapper {
+  overflow: scroll;
 }
 
 .shell-title {
@@ -9,6 +14,23 @@
 }
 
 .banner {
-  width: 100vw;
+  width: 100%;
   margin-bottom: 1.5rem;
+}
+
+.banner-shell-content {
+  padding: 0 1rem;
+}
+
+.banner-shell-footer {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 4.5rem;
+  bottom: 0;
+  z-index: 1;
+}
+
+.banner-shell-footer.spacer {
+  position: static;
 }

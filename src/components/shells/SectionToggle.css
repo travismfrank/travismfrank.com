@@ -1,0 +1,74 @@
+.section-toggler-wrapper {
+  margin-bottom: 1rem;
+}
+
+.section-toggle {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section-toggle h2 {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding-right: 0.5rem;
+}
+
+.chevron {
+  position: relative;
+  top: 0.1rem;
+}
+
+.chevron::before {
+  content: '';
+  height: 0.45rem;
+  width: 0.45rem;
+  border-style: solid;
+  border-width: 0.2rem 0.2rem 0 0;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: 0.15em;
+  transform: rotate(45deg);
+  transition: all 75ms linear;
+  vertical-align: top;
+}
+
+.chevron.open::before {
+  transform: rotate(135deg);
+}
+
+.section-content {
+  overflow: hidden;
+}
+
+.section-content > p {
+  margin-bottom: 0;
+}
+
+.section-content.enter {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.section-content.enter-active {
+  max-height: 12rem;
+  opacity: 1;
+  visibility: visible;
+  transition: max-height 200ms, opacity 200ms, visibility 200ms;
+}
+
+.section-content.exit {
+  max-height: 12rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.section-content.exit-active {
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-height 200ms, opacity 200ms, visibility 200ms;
+}
