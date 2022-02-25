@@ -40,8 +40,8 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="about">
           <Route path="bio" element={<Bio />} />
-          <Route path="principles" element={<Leadership />} />
-          <Route path="leadership" element={<Principles />} />
+          <Route path="principles" element={<Principles />} />
+          <Route path="leadership" element={<Leadership />} />
         </Route>
         <Route path="writing">
           <Route path="feed" element={<Feed />} />
