@@ -1,5 +1,5 @@
 .section-toggler-wrapper {
-  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .section-toggle {
@@ -49,27 +49,27 @@
 }
 
 .section-content.enter {
-  max-height: 0%;
+  max-height: 0;
   opacity: 0;
   visibility: hidden;
 }
 
 .section-content.enter-active {
-  max-height: 4rem;
+  max-height: 12rem;
   opacity: 1;
   visibility: visible;
-  transition: max-height 75ms, opacity 75ms, visibility 75ms;
+  transition: max-height 200ms, opacity 200ms, visibility 200ms;
 }
 
 .section-content.exit {
-  max-height: 4rem;
+  max-height: 12rem;
   opacity: 1;
   visibility: visible;
 }
 
 .section-content.exit-active {
-  max-height: 0%;
+  max-height: 0;
   opacity: 0;
   visibility: hidden;
-  transition: max-height 75ms, opacity 75ms, visibility 75ms;
+  transition: max-height 200ms, opacity 200ms, visibility 200ms;
 }

@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.banner-shell-content {
+  overflow: scroll;
+}
+
 .shell-title {
   font-family: 'Source Code Pro', monospace;
   margin: 0;
@@ -21,4 +25,8 @@
   height: 4.5rem;
   bottom: 0;
   z-index: 1;
+}
+
+.banner-shell-footer.spacer {
+  position: static;
 }
