@@ -21,10 +21,12 @@ function SectionToggle({ children, open, sectionTitle }) {
       </div>
       <CSSTransition
         in={sectionOpen}
-        timeout={300}
+        timeout={75}
         unmountOnExit
       >
-        {children}
+        <div className="section-content">
+          {children}
+        </div>
       </CSSTransition>
     </div>
   );
