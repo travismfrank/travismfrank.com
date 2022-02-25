@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-.banner-shell-content {
+.banner-shell-content-wrapper {
   overflow: scroll;
 }
 
@@ -16,6 +16,10 @@
 .banner {
   width: 100%;
   margin-bottom: 1.5rem;
+}
+
+.banner-shell-content {
+  padding: 0 1rem;
 }
 
 .banner-shell-footer {

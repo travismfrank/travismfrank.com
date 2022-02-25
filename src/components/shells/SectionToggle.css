@@ -3,7 +3,7 @@
 }
 
 .section-toggle {
-  margin-left: 1.5rem;
+  margin-left: 0.5rem;
   display: inline-flex;
   align-items: center;
   cursor: pointer;
@@ -41,7 +41,6 @@
 
 .section-content {
   overflow: hidden;
-  padding: 0 1rem;
 }
 
 .section-content > p {

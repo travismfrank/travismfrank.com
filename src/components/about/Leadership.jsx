@@ -1,7 +1,15 @@
+import './Leadership.css';
+import BannerShell from '../shells/BannerShell';
+
 function Leadership() {
   return (
-    <div>
-    </div>
+    <BannerShell
+      bannerSrc="../../../src/assets/local/leadership.jpg"
+      titleText="Leadership"
+    >
+      <div className="leadership-content">
+      </div>
+    </BannerShell>
   );
 }
 
