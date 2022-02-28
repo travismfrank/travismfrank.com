@@ -1,4 +1,4 @@
-const directory = './public/to_convert';
+const directory = './src/assets/images/to_convert';
 const fs = require('fs');
 const sharp = require('sharp');
 

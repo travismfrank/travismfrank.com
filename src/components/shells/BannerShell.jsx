@@ -1,8 +1,8 @@
 import './BannerShell.css';
 import generateSrcset from '../../utils/srcset.js';
 
-function BannerShell({ bannerSrc, children, titleText }) {
-  const bannerSrcset = generateSrcset(bannerSrc);
+function BannerShell({ bannerSrc, children, srcMap, titleText }) {
+  const bannerSrcset = generateSrcset(srcMap);
 
   return (
     <div className="banner-shell-wrapper">

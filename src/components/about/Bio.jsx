@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 
 import './Bio.css';
-import bioImageUrl from '../../../public/bio.jpg';
+import bioImageUrl from '../../assets/images/bio.jpg';
+import bioImageUrl480 from '../../assets/images/bio-480.jpg';
+import bioImageUrl720 from '../../assets/images/bio-720.jpg';
+import bioImageUrl1080 from '../../assets/images/bio-1080.jpg';
+import bioImageUrl3840 from '../../assets/images/bio-3840.jpg';
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
 
@@ -9,6 +13,12 @@ function Bio() {
   return (
     <BannerShell
       bannerSrc={bioImageUrl}
+      srcMap={{
+        480: bioImageUrl480,
+        720: bioImageUrl720,
+        1080: bioImageUrl1080,
+        3840: bioImageUrl3840
+      }}
       titleText="Biography"
     >
       <SectionToggle open={false} sectionTitle="Fast Facts">
