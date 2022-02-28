@@ -1,10 +1,21 @@
 import './Principles.css';
+import principlesImageUrl from '../../assets/images/principles.jpg';
+import principlesImageUrl480 from '../../assets/images/principles-480.jpg';
+import principlesImageUrl720 from '../../assets/images/principles-720.jpg';
+import principlesImageUrl1080 from '../../assets/images/principles-1080.jpg';
+import principlesImageUrl3840 from '../../assets/images/principles-3840.jpg';
 import BannerShell from '../shells/BannerShell';
 
 function Principles() {
   return (
     <BannerShell
-      bannerSrc="../../../src/assets/local/principles.jpg"
+      bannerSrc={principlesImageUrl}
+      srcMap={{
+        480: principlesImageUrl480,
+        720: principlesImageUrl720,
+        1080: principlesImageUrl1080,
+        3840: principlesImageUrl3840
+      }}
       titleText="Principles"
     >
       <p className="principles-preamble">

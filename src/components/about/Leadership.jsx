@@ -1,11 +1,22 @@
 import './Leadership.css';
+import leadershipImageUrl from '../../assets/images/leadership.jpg';
+import leadershipImageUrl480 from '../../assets/images/leadership-480.jpg';
+import leadershipImageUrl720 from '../../assets/images/leadership-720.jpg';
+import leadershipImageUrl1080 from '../../assets/images/leadership-1080.jpg';
+import leadershipImageUrl3840 from '../../assets/images/leadership-3840.jpg';
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
 
 function Leadership() {
   return (
     <BannerShell
-      bannerSrc="../../../src/assets/local/leadership.jpg"
+      bannerSrc={leadershipImageUrl}
+      srcMap={{
+        480: leadershipImageUrl480,
+        720: leadershipImageUrl720,
+        1080: leadershipImageUrl1080,
+        3840: leadershipImageUrl3840
+      }}
       titleText="Leadership"
     >
       <p className="leadership-preamble">

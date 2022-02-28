@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react';
 
 import './Landing.css';
+import landingImageUrl from '../../../src/assets/images/landing_headshot.jpg';
+import landingImageUrl480 from '../../assets/images/landing_headshot-480.jpg';
+import landingImageUrl720 from '../../assets/images/landing_headshot-720.jpg';
+import landingImageUrl1080 from '../../assets/images/landing_headshot-1080.jpg';
+import landingImageUrl3840 from '../../assets/images/landing_headshot-3840.jpg';
+import generateSrcset from '../../utils/srcset.js';
 
 function Landing() {
   const [contents, setContents] = useState('');
@@ -65,7 +71,14 @@ function Landing() {
         <h1 className="cursor">{contents}</h1>
       </div>
       <img id="landing-headshot"
-           src="../../../src/assets/local/landing_headshot.jpg"
+           src={landingImageUrl}
+           srcSet={generateSrcset({
+             480: landingImageUrl480,
+             720: landingImageUrl720,
+             1080: landingImageUrl1080,
+             3840: landingImageUrl3840
+           })}
+           sizes="100vw"
            alt="travis-headshot"
       />
     </div>
