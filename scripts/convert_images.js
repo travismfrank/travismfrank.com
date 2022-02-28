@@ -10,6 +10,7 @@ fs.readdirSync(directory).forEach(file => {
       console.log('file:', file, 'width:', width);
       sharp(`${directory}/${file}`)
        .resize({ width: width })
+       .jpeg({ progressive: true })
        .toFile(`${directory}/${file.split('.')[0]}-${width}.jpg`)
        .catch(err => {
         console.log(err);
