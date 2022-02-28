@@ -4,6 +4,7 @@
 
 .section-toggle {
   margin-left: 0.5rem;
+  margin-right: 0.5rem;
   display: inline-flex;
   align-items: center;
   cursor: pointer;
