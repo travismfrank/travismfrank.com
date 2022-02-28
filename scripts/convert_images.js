@@ -2,7 +2,7 @@ const directory = './src/assets/images';
 const fs = require('fs');
 const sharp = require('sharp');
 
-const widthArr = new Set([650, 800, 1000, 2000]);
+const widthArr = new Set([480, 720, 1080, 3840]);
 
 fs.readdirSync(directory).forEach(file => {
   if (file !== '.DS_Store') {
