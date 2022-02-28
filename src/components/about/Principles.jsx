@@ -1,5 +1,5 @@
 import './Principles.css';
-import principlesImageUrl from '../../assets/images/principles.jpg';
+import principlesImageUrl from '../../../public/principles.jpg';
 import BannerShell from '../shells/BannerShell';
 
 function Principles() {

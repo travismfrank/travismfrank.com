@@ -1,5 +1,5 @@
-import generateSrcset from '../../utils/srcset.js';
 import './BannerShell.css';
+import generateSrcset from '../../utils/srcset.js';
 
 function BannerShell({ bannerSrc, children, titleText }) {
   const bannerSrcset = generateSrcset(bannerSrc);

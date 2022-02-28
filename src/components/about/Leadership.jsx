@@ -1,5 +1,5 @@
 import './Leadership.css';
-import leadershipImageUrl from '../../assets/images/leadership.jpg';
+import leadershipImageUrl from '../../../public/leadership.jpg';
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
 

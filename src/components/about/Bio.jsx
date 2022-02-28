@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import './Bio.css';
-import bioImageUrl from '../../assets/images/bio.jpg';
+import bioImageUrl from '../../../public/bio.jpg';
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
 

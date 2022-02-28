@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 
 import './Landing.css';
-import landingImageUrl from '../../assets/images/landing_headshot.jpg';
+import landingImageUrl from '../../../public/landing_headshot.jpg';
+import generateSrcset from '../../utils/srcset.js';
 
 function Landing() {
   const [contents, setContents] = useState('');
@@ -67,6 +68,8 @@ function Landing() {
       </div>
       <img id="landing-headshot"
            src={landingImageUrl}
+           srcSet={generateSrcset(landingImageUrl)}
+           sizes="100vw"
            alt="travis-headshot"
       />
     </div>
