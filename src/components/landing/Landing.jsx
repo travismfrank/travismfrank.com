@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import './Landing.css';
+import landingImageUrl from '../../assets/images/landing_headshot.jpg';
 
 function Landing() {
   const [contents, setContents] = useState('');
@@ -65,7 +66,7 @@ function Landing() {
         <h1 className="cursor">{contents}</h1>
       </div>
       <img id="landing-headshot"
-           src="../../../src/assets/local/landing_headshot.jpg"
+           src={landingImageUrl}
            alt="travis-headshot"
       />
     </div>

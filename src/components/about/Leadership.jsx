@@ -1,11 +1,12 @@
 import './Leadership.css';
+import leadershipImageUrl from '../../assets/images/leadership.jpg';
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
 
 function Leadership() {
   return (
     <BannerShell
-      bannerSrc="../../../src/assets/local/leadership.jpg"
+      bannerSrc={leadershipImageUrl}
       titleText="Leadership"
     >
       <p className="leadership-preamble">

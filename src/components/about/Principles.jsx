@@ -1,10 +1,11 @@
 import './Principles.css';
+import principlesImageUrl from '../../assets/images/principles.jpg';
 import BannerShell from '../shells/BannerShell';
 
 function Principles() {
   return (
     <BannerShell
-      bannerSrc="../../../src/assets/local/principles.jpg"
+      bannerSrc={principlesImageUrl}
       titleText="Principles"
     >
       <p className="principles-preamble">

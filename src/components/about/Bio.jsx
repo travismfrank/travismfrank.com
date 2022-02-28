@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 
 import './Bio.css';
+import bioImageUrl from '../../assets/images/bio.jpg';
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
 
 function Bio() {
   return (
     <BannerShell
-      bannerSrc="../../../src/assets/local/bio.jpg"
+      bannerSrc={bioImageUrl}
       titleText="Biography"
     >
       <SectionToggle open={false} sectionTitle="Fast Facts">
