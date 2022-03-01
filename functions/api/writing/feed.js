@@ -7,5 +7,9 @@ export async function onRequestGet({ env }) {
     respData[key] = await env.travismfrank.get(key);
   }
 
-  return new Response(respData);
+  return new Response(JSON.stringify(respData), {
+    headers: {
+      "Content-type": "application/json"
+    }
+  });
 }
