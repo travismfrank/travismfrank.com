@@ -22,3 +22,10 @@ Images are stored in `src/assets/images`, including originals and resized versio
 ```zsh
 node scripts/convert_images.js
 ```
+
+## Posts
+Posts are stored in Cloudflare's distributed [KV store](https://www.cloudflare.com/products/workers-kv/). To put a post in the KV store, run
+
+```zsh
+scripts/put_post.sh $PATH_TO_MARKDOWN_DOC
+```
