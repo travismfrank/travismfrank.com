@@ -16,8 +16,9 @@
     "react-transition-group": "^4.4.2"
   },
   "devDependencies": {
-    "sharp": "^0.30.1",
     "@vitejs/plugin-react": "^1.0.7",
-    "vite": "^2.8.0"
+    "sharp": "^0.30.1",
+    "vite": "^2.8.0",
+    "wrangler": "^0.0.17"
   }
 }
