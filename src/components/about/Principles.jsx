@@ -24,7 +24,7 @@ function Principles() {
         , I publicly collect my principles here.
       </p>
       <p><b>Last Updated:</b> February 24, 2022</p>
-      <ul>
+      <ul className="principles-list">
         <li>Give gratitude</li>
         <li>Embrace change</li>
         <li>Walk uphill</li>
