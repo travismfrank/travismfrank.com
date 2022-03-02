@@ -5,10 +5,11 @@ export async function onRequestGet({ env, params }) {
   const parsedDoc = fm(storedDoc);
 
   const respData = {
-    publishDate: parsedDoc.attributes["publish_date"],
-    updateDate: parsedDoc.attributes["update_date"],
-    title: parsedDoc.attributes["title"],
     content: parsedDoc.body,
+    id: params.postid,
+    publishDate: parsedDoc.attributes["publish_date"],
+    title: parsedDoc.attributes["title"],
+    updateDate: parsedDoc.attributes["update_date"],
   };
 
   return new Response(JSON.stringify(respData), {

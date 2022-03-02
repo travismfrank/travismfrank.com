@@ -14,10 +14,11 @@ export async function onRequestGet({ env }) {
     const parsedDoc = fm(storedDoc);
 
     respData.posts.push({
-      publishDate: parsedDoc.attributes["publish_date"],
-      updateDate: parsedDoc.attributes["update_date"],
-      title: parsedDoc.attributes["title"],
       content: parsedDoc.body,
+      id: key,
+      publishDate: parsedDoc.attributes["publish_date"],
+      title: parsedDoc.attributes["title"],
+      updateDate: parsedDoc.attributes["update_date"],
     });
   }
 
