@@ -18,8 +18,8 @@ function BannerShell({ bannerSrc, children, srcMap, titleText }) {
           {children}
         </div>
       </div>
-      <div className="banner-shell-footer spacer" />
-      <div className="banner-shell-footer" />
+      <div className="footer spacer" />
+      <div className="footer" />
     </div>
   );
 }
