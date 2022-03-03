@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Feed.css';
-// import { postKeys } from '../../assets/posts/post_keys.json';
 
 function Feed() {
   const [articles, setArticles] = useState([]);
