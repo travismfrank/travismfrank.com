@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "npx wrangler pages dev ./dist --kv travismfrank"
+    "preview": "npx wrangler pages dev ./dist"
   },
   "dependencies": {
     "classnames": "^2.3.1",
