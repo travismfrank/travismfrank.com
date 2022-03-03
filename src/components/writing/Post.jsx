@@ -6,13 +6,34 @@ import { Link, useParams } from 'react-router-dom';
 import './Post.css';
 import { docs } from './Feed';
 
+// Import images
+const postImages = import.meta.glob('./../../assets/images/posts/*');
+async function resolveImages() {
+  for (const image in postImages) {
+    if (typeof postImages[image] === 'function') {
+      const imageObj = await postImages[image]();
+      postImages[image] = imageObj.default;
+    }
+  }
+};
+
 function Post() {
   const [post, setPost] = useState({});
 
   const { postId } = useParams();
 
   useEffect(async () => {
-    const doc = docs[`./../../assets/posts/${postId}.md`];
+    // Resolve image promises
+    await resolveImages();
+
+    let doc = docs[`./../../assets/posts/${postId}.md`];
+
+    // Replace image urls
+    doc = doc.replace(/!\[[^\]]*\]\((.*\/+(.*))\)/g, (match, url, assetName) => {
+      const imgUrl = postImages['./../../assets/images/posts/' + assetName];
+      return match.replace(url, window.location.origin + imgUrl);
+    });
+
     const parsedDoc = fm(doc);
 
     setPost({
