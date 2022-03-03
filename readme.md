@@ -16,7 +16,7 @@ npm run dev
 
 Dev server at localhost:3000
 
-Build and preview (static assets and dynamic backend)
+Build and preview
 
 ```zsh
 npm run build && npm run preview
@@ -34,18 +34,18 @@ node scripts/convert_images.js
 Don't forget to move the images back to `src/assets/images`!
 
 ## Posts
-Posts are stored in Cloudflare's distributed [KV store](https://www.cloudflare.com/products/workers-kv/). When previewing locally, a [Miniflare](https://miniflare.dev/) KV store is used instead (`.mf/kv/travismfrank`).
+Posts are stored in `src/assets/posts`, with post-specific images stored in `src/assets/images/posts`.
 
-### Local KV
-To put a post in the local KV store, run
-
-```zsh
-scripts/put_post_local.sh $PATH_TO_MARKDOWN_DOC
-```
-
-### Prod & Preview KV
-To put a post in the prod/preview KV store, run
+### Add a Post
+To copy a post to the appropriate directory, run
 
 ```zsh
 scripts/put_post.sh $PATH_TO_MARKDOWN_DOC
+```
+
+### Add a Post Image
+To copy an image to the appropriate directory, run
+
+```zsh
+scripts/put_image.sh $PATH_TO_POST_IMAGE
 ```
