@@ -34,6 +34,7 @@ function Post() {
       return match.replace(url, window.location.origin + imgUrl);
     });
 
+    // Parse front matter
     const parsedDoc = fm(doc);
 
     setPost({

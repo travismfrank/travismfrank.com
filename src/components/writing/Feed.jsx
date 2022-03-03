@@ -29,6 +29,19 @@ function Feed() {
       });
     }
 
+    // Sort posts in backwards-chronological order
+    articleAccumulator.sort((firstEl, secondEl) => {
+      const firstDate = Date.parse(firstEl.publishDate);
+      const secondDate = Date.parse(secondEl.publishDate);
+
+      if (firstDate > secondDate) {
+        return -1;
+      } else if (firstDate < secondDate) {
+        return 1;
+      }
+      return 0;
+    });
+    
     setArticles(articleAccumulator);
   }, []);
   
