@@ -1,25 +1,27 @@
+import fm from 'front-matter';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown'
 import { Link, useParams } from 'react-router-dom';
 
 import './Post.css';
+import { docs } from './Feed';
 
 function Post() {
   const [post, setPost] = useState({});
-  const [error, setError] = useState(null);
 
   const { postId } = useParams();
 
-  useEffect(() => {
-    fetch(window.location.origin + '/api/writing/' + postId)
-      .then(res => res.json())
-      .then(postData => {
-        setPost(postData);
-      })
-      .catch(err => {
-        console.log(err);
-        setError(err);
-      });
+  useEffect(async () => {
+    const doc = docs[`./../../assets/posts/${postId}.md`];
+    const parsedDoc = fm(doc);
+
+    setPost({
+      content: parsedDoc.body,
+      id: doc,
+      publishDate: parsedDoc.attributes["publish_date"],
+      title: parsedDoc.attributes["title"],
+      updateDate: parsedDoc.attributes["update_date"],
+    });
   }, []);
 
   function getPostComponent() {
@@ -41,7 +43,7 @@ function Post() {
   return (
     <div className="post-wrapper">
       <div className="post-back">
-        <Link to={"/writing/feed"}>Writing</Link>
+        <Link to={"/writing/feed"}>All Posts</Link>
       </div>
       {post && getPostComponent()}
       <div className="footer spacer" />

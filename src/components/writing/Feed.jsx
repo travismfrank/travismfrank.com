@@ -4,15 +4,16 @@ import { Link } from 'react-router-dom';
 
 import './Feed.css';
 
+export const docs = import.meta.glob('./../../assets/posts/*.md', {
+  assert: {
+    type: 'raw'
+  }
+});
+
 function Feed() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
-    const docs = import.meta.glob('./../../assets/posts/*.md', {
-      assert: {
-        type: 'raw'
-      }
-    });
     const articleAccumulator = [];
 
     for (const doc in docs) {
@@ -21,7 +22,7 @@ function Feed() {
 
       articleAccumulator.push({
         content: parsedDoc.body,
-        id: doc,
+        id: doc.split('/')[5].slice(0, -3),
         publishDate: parsedDoc.attributes["publish_date"],
         title: parsedDoc.attributes["title"],
         updateDate: parsedDoc.attributes["update_date"],
