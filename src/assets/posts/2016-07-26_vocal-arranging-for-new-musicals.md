@@ -21,7 +21,7 @@ First, let’s take a look at arranging harmonies for a pre-existing melody.  B
 ---
 
 ![born-to-be-melody](../assets/images/born-to-be.png)
-"Born to Be" from _Super Iron Cooking Chef_, Music by Travis Frank, Lyrics by Travis Frank, Nora Germani, and Noah Hazzard
+>"Born to Be" from _Super Iron Cooking Chef_, Music by Travis Frank, Lyrics by Travis Frank, Nora Germani, and Noah Hazzard
 
 ---
 
@@ -32,7 +32,7 @@ With all of this info in mind, here’s the final harmony that I ended up going 
 ---
 
 ![born-to-be-arrangement](../assets/images/born-to-be-arrangement.png)
-"Born to Be" from _Super Iron Cooking Chef_, Music by Travis Frank, Lyrics by Travis Frank, Nora Germani, and Noah Hazzard
+>"Born to Be" from _Super Iron Cooking Chef_, Music by Travis Frank, Lyrics by Travis Frank, Nora Germani, and Noah Hazzard
 
 ---
 
@@ -44,7 +44,7 @@ Second, let’s take a look at arranging ensemble harmonies as background for a 
 
 ![woe-is-me-arrangement-page-one](../assets/images/woe-is-me-page-one.png)
 ![woe-is-me-arrangement-page-two](../assets/images/woe-is-me-page-two.png)
-"Woe Is Me" from _The Queen's Dilemma_, Music and Lyrics by Samuel J. Bernstein, Orchestration and Vocal Arrangements by Travis Frank
+>"Woe Is Me" from _The Queen's Dilemma_, Music and Lyrics by Samuel J. Bernstein, Orchestration and Vocal Arrangements by Travis Frank
 
 ---
 
@@ -58,7 +58,7 @@ Finally, let’s take a look at arranging background vocals as part of an unders
 
 ![be-brave-page-one](../assets/images/be-brave-page-one.png)
 ![be-brave-page-two](../assets/images/be-brave-page-two.png)
-"Be Brave Reprise" from _Mirror, Mirror_, Music by Travis Frank, Lyrics by Travis Frank and Megan Ruppel
+>"Be Brave Reprise" from _Mirror, Mirror_, Music by Travis Frank, Lyrics by Travis Frank and Megan Ruppel
 
 ---
 

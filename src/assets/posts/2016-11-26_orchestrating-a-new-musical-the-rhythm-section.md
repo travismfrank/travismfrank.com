@@ -58,7 +58,7 @@ Let’s take a look at an actual groove I’ve created when orchestrating.  Bel
 ---
 
 ![a-different-road](../assets/images/a-different-road.png)
-"A Different Road" from _Mirror, Mirror_, Music and Orchestration by Travis Frank, Lyrics by Travis Frank and Megan Ruppel
+>"A Different Road" from _Mirror, Mirror_, Music and Orchestration by Travis Frank, Lyrics by Travis Frank and Megan Ruppel
 
 ---
 
@@ -74,7 +74,7 @@ Amidst all this discussion of groove and rhythm, it’s easy to forget that the 
 ---
 
 ![be-brave-reprise-orchestration](../assets/images/be-brave-reprise-orchestration.png)
-"Be Brave Reprise" from _Mirror, Mirror_, Music and Orchestrations by Travis Frank, Lyrics by Travis Frank and Megan Ruppel
+>"Be Brave Reprise" from _Mirror, Mirror_, Music and Orchestrations by Travis Frank, Lyrics by Travis Frank and Megan Ruppel
 
 ---
 
