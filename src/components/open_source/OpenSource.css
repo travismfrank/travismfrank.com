@@ -1,0 +1,48 @@
+.open-source-wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #E5C1BD;
+  overflow: hidden;
+}
+
+.open-source-wrapper h1 {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.open-source-content {
+  padding: 0 1rem;
+}
+
+.open-source-content svg {
+  font-size: 2rem;
+}
+
+.open-source-heading {
+  display: flex;
+  align-items: center;
+}
+
+.open-source-content h2 {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+  margin: 1.5rem 0.5rem;
+  display: inline-block;
+  position: relative;
+  line-height: 0.5;
+}
+
+.open-source-content h2::after {
+  content: "";
+  width: 10000px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  top: 50%;
+}
+
+.open-source-content h2::after {
+  left: 100%;
+  margin-left: 0.5rem;
+}
