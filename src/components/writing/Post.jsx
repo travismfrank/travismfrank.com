@@ -7,15 +7,7 @@ import './Post.css';
 import { docs } from './Feed';
 
 // Import images
-const postImages = import.meta.glob('./../../assets/images/posts/*');
-async function resolveImages() {
-  for (const image in postImages) {
-    if (typeof postImages[image] === 'function') {
-      const imageObj = await postImages[image]();
-      postImages[image] = imageObj.default;
-    }
-  }
-};
+const postImages = import.meta.globEager('./../../assets/images/posts/*');
 
 function Post() {
   const [post, setPost] = useState({});
@@ -23,14 +15,11 @@ function Post() {
   const { postId } = useParams();
 
   useEffect(async () => {
-    // Resolve image promises
-    await resolveImages();
-
     let doc = docs[`./../../assets/posts/${postId}.md`];
 
     // Replace image urls
     doc = doc.replace(/!\[[^\]]*\]\((.*\/+(.*))\)/g, (match, url, assetName) => {
-      const imgUrl = postImages['./../../assets/images/posts/' + assetName];
+      const imgUrl = postImages['./../../assets/images/posts/' + assetName].default;
       return match.replace(url, window.location.origin + imgUrl);
     });
 
