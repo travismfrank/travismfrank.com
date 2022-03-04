@@ -29,7 +29,7 @@ function Leadership() {
       </p>
       <SectionToggle open={false} sectionTitle="Obsidian (2020-2021)">
         <p>
-          I am a founding contributor of <Link to="/open-source">Obsidian</Link>,
+          I am a founding contributor of <a href="https://github.com/open-source-labs/obsidian" target="_blank">Obsidian</a>,
           Deno's first native GraphQL caching layer. Since building and shipping v1.0
           I have moved into an advisory role, mentoring active contributors.
         </p>
@@ -48,7 +48,7 @@ function Leadership() {
       </SectionToggle>
       <SectionToggle open={false} sectionTitle="Black Tie Productions (2012-2016)">
         <p>
-          I founded <Link to="music/musicals">Black Tie Productions</Link>, a youth theatre
+          I founded <Link to="/music/musicals">Black Tie Productions</Link>, a youth theatre
           company that produced original musicals written, directed, and performed entirely
           by high school students. I led the company as Executive Producer and Artistic Director
           for three years, across five original musicals, eight productions, and thousands of
