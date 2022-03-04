@@ -46,9 +46,13 @@ function Post() {
     });
   }, []);
 
-  function getPostComponent() {
-    return (
-      <article className="post">
+  return (
+    <div className="post-wrapper">
+      <div className="header">
+        <Link className="post-back" to={"/writing/feed"}>All Posts</Link>
+      </div>
+      <div className="header spacer" />
+      {post.content && <article className="post">
         <h1>{post.title}</h1>
         <p className="date">Published {post.publishDate}{
           post.publishDate !== post.updateDate ?
@@ -58,18 +62,7 @@ function Post() {
         <div className="post-content">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </div>
-      </article>
-    )
-  }
-
-  return (
-    <div className="post-wrapper">
-      <div className="post-back">
-        <Link to={"/writing/feed"}>All Posts</Link>
-      </div>
-      {post && getPostComponent()}
-      <div className="footer spacer" />
-      <div className="footer" />
+      </article>}
     </div>
   );
 }

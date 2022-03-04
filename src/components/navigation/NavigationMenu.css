@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  bottom: 0;
+  top: 0;
   opacity: 0;
   visibility: hidden;
   height: 0%;
