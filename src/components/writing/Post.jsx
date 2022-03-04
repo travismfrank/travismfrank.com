@@ -64,12 +64,11 @@ function Post() {
 
   return (
     <div className="post-wrapper">
-      <div className="post-back">
-        <Link to={"/writing/feed"}>All Posts</Link>
+      <div className="header">
+        <Link className="post-back" to={"/writing/feed"}>All Posts</Link>
       </div>
+      <div className="header spacer" />
       {post && getPostComponent()}
-      <div className="footer spacer" />
-      <div className="footer" />
     </div>
   );
 }

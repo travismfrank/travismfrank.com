@@ -7,7 +7,10 @@ function BannerShell({ bannerSrc, children, srcMap, titleText }) {
   return (
     <div className="banner-shell-wrapper">
       <div className="banner-shell-content-wrapper">
-        <h1 className="shell-title">{titleText}</h1>
+        <div className="header">
+          <h1 className="shell-title">{titleText}</h1>
+        </div>
+        <div className="header spacer" />
         <img
           src={bannerSrc}
           srcSet={bannerSrcset}
@@ -18,8 +21,6 @@ function BannerShell({ bannerSrc, children, srcMap, titleText }) {
           {children}
         </div>
       </div>
-      <div className="footer spacer" />
-      <div className="footer" />
     </div>
   );
 }

@@ -36,6 +36,11 @@ function App() {
 
   return (
     <div className="App">
+      <NavigationButton 
+        mobileNavOpen={mobileNavOpen}
+        setMobileNavOpen={setMobileNavOpen}
+      />
+      <NavigationMenu open={mobileNavOpen} setOpen={setMobileNavOpen} />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="about">
@@ -64,11 +69,6 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
-      <NavigationButton 
-        mobileNavOpen={mobileNavOpen}
-        setMobileNavOpen={setMobileNavOpen}
-      />
-      <NavigationMenu open={mobileNavOpen} setOpen={setMobileNavOpen} />
     </div>
   );
 }

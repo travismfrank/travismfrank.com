@@ -47,7 +47,10 @@ function Feed() {
   
   return (
     <div className="feed-wrapper">
-      <h1 className="feed-title">Writing</h1>
+      <div className="header">
+        <h1 className="feed-title">Writing</h1>
+      </div>
+      <div className="header spacer" />
       <p className="feed-preamble">
         I write words, which you can find here. I also write <Link to={"/music/musicals"}>musicals</Link> and <Link to={"music/records/sketching-the-sky"}>jazz</Link>.        
       </p>
