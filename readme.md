@@ -1,5 +1,5 @@
 # travismfrank
-Monorepo of travismfrank.com, hosted on [Cloudflare Pages](https://developers.cloudflare.com/pages/). Static frontend in `src`, API routes in `functions`.
+Static site travismfrank.com, hosted on [Cloudflare Pages](https://developers.cloudflare.com/pages/).
 
 ## Startup
 Install dependencies
