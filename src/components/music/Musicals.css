@@ -1,0 +1,15 @@
+.musical-selection-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.musical-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.musical-icon {
+  height: 2rem;
+}
