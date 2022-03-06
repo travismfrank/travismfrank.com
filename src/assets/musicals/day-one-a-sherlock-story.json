@@ -1,0 +1,155 @@
+{
+  "title": "Day One: A Sherlock Story",
+  "shortTitle": "Day One",
+  "description": "John Watson just wants a quiet, normal life, but rooming with Sherlock Holmes tends to get in the way. Their encounters with Irene Adler, seductive dominatrix, and Sherlock's arch-nemesis, James Moriarty, force them to reckon with what it means to be ordinary in an extraordinary world.",
+  "book": "Travis Frank and Grace Heller",
+  "music": "Travis Frank",
+  "lyrics": "Travis Frank and Grace Heller",
+  "premiereDate": "March 20, 2014",
+  "btp": true,
+  "productions": 1,
+  "cast": 18,
+  "orchestra": 10,
+  "reviews": [],
+  "credits": [
+    {
+      "productionTitle": "Premiere",
+      "creative": [
+        {
+          "title": "Director",
+          "name": "Grace Heller"
+        },
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Set Design",
+          "name": "Livia Amorosi and Maddie McAllister"
+        },
+        {
+          "title": "Costume Design",
+          "name": "Katya Grigerman and Grace Heller"
+        },
+        {
+          "title": "Projection Design",
+          "name": "Travis Frank and Maddie McAllister"
+        },
+        {
+          "title": "Stage Manager",
+          "name": "Jamie Sain"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Sherlock Holmes",
+          "name": "Noah Hazzard"
+        },
+        {
+          "title": "John Watson",
+          "name": "Sam Johns"
+        },
+        {
+          "title": "Mary Hopkins",
+          "name": "Miriam Oderberg Moss"
+        },
+        {
+          "title": "Mrs. Hudson",
+          "name": "Abby Duell"
+        },
+        {
+          "title": "Mycroft Holmes",
+          "name": "Drea Gordon"
+        },
+        {
+          "title": "James Moriarty",
+          "name": "Bryce Walsh"
+        },
+        {
+          "title": "Irene Adler",
+          "name": "Bretta McCall"
+        },
+        {
+          "title": "Scarlet",
+          "name": "Ella Sharp"
+        },
+        {
+          "title": "Greg Lestrade",
+          "name": "Matthew Lauder"
+        },
+        {
+          "title": "Sergeant Hopkins",
+          "name": "Ruby Daniel"
+        },
+        {
+          "title": "Sylvia Jones",
+          "name": "Moira Finnegan"
+        },
+        {
+          "title": "Ensemble",
+          "name": "Nora Germani, Greg Harman, Claire Hostetler, Kirby McDermott, Patrick McDermott, Conner Walsh, Henry Whittington"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Conductor",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Woodwind I (Flute / Tenor Sax)",
+          "name": "Elena Imel"
+        },
+        {
+          "title": "Woodwind II (Clarinet / Alto Sax)",
+          "name": "Meera Beauchamp"
+        },
+        {
+          "title": "Horn",
+          "name": "Cole Pettit"
+        },
+        {
+          "title": "Trumpet",
+          "name": "Matthew Lauder"
+        },
+        {
+          "title": "Trombone",
+          "name": "Ada Meyer"
+        },
+        {
+          "title": "Acoustic Guitar",
+          "name": "Bryce Walsh"
+        },
+        {
+          "title": "Percussion",
+          "name": "Jalyn Johns"
+        },
+        {
+          "title": "Piano",
+          "name": "Esme Lafi"
+        },
+        {
+          "title": "Violin",
+          "name": "Noah Hazzard"
+        },
+        {
+          "title": "Bass",
+          "name": "Ruthmabel Boytz"
+        }
+      ],
+      "crew": [
+        {
+          "title": "Projection Technician",
+          "name": "Maddie McAllister"
+        },
+        {
+          "title": "Lighting Technician",
+          "name": "Sofia Thompson"
+        },
+        {
+          "title": "Dresser",
+          "name": "Katya Grigerman"
+        }
+      ]
+    }
+  ]
+}
