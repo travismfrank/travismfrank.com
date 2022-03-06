@@ -1,0 +1,119 @@
+{
+  "title": "Glitter: A Musical Parody",
+  "shortTitle": "Glitter",
+  "description": "A loving parody of Stephenie Meyer's Twilight Saga, Glitter follows Bella to Forks, where she has to choose between a werewolf who just can't seem to keep his shirt on, and a vampire that...sparkles?",
+  "book": "Travis Frank and Kirsten Westmoreland",
+  "music": "Travis Frank",
+  "lyrics": "Travis Frank and Kirsten Westmoreland",
+  "premiereDate": "April 4, 2013",
+  "btp": true,
+  "productions": 1,
+  "cast": 18,
+  "orchestra": 1,
+  "reviews": [],
+  "credits": [
+    {
+      "productionTitle": "Premiere",
+      "creative": [
+        {
+          "title": "Director",
+          "name": "Kirsten Westmoreland"
+        },
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Bella",
+          "name": "Jamie Beers"
+        },
+        {
+          "title": "Edward",
+          "name": "Bryce Walsh"
+        },
+        {
+          "title": "Jacob",
+          "name": "John Buenavista"
+        },
+        {
+          "title": "Charlie",
+          "name": "Van Codling"
+        },
+        {
+          "title": "Carlisle",
+          "name": "Sam Johns"
+        },
+        {
+          "title": "Esme",
+          "name": "Hannah Probst"
+        },
+        {
+          "title": "Emmett",
+          "name": "Sam Sturgeon"
+        },
+        {
+          "title": "Rosalie",
+          "name": "Bretta McCall"
+        },
+        {
+          "title": "Jasper",
+          "name": "Van Codling"
+        },
+        {
+          "title": "Alice",
+          "name": "Serena Pollard"
+        },
+        {
+          "title": "Jessica",
+          "name": "Miriam Oderberg Moss"
+        },
+        {
+          "title": "Mike",
+          "name": "Noah Hazzard"
+        },
+        {
+          "title": "Angela",
+          "name": "Grace Heller"
+        },
+        {
+          "title": "Ben",
+          "name": "Conrad Spiekerman"
+        },
+        {
+          "title": "Aro",
+          "name": "Abby Duell"
+        },
+        {
+          "title": "Jane",
+          "name": "Riley Miller"
+        },
+        {
+          "title": "Alec",
+          "name": "Maddie Burke"
+        },
+        {
+          "title": "Biology Teacher / Priest",
+          "name": "Emma Daszkiewicz"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        }
+      ],
+      "crew": [
+        {
+          "title": "Spotlight",
+          "name": "Adam Frazier / Sofia Thompson"
+        },
+        {
+          "title": "Stagehands",
+          "name": "Claire Hostetler, Elena Imel and James Tittle"
+        }
+      ]
+    }
+  ]
+}
