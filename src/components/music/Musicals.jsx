@@ -18,7 +18,7 @@ function Musicals() {
       <h1>Original Musicals</h1>
       <div className="musical-selection-wrapper">
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/reprise"}>
+          <Link className="musical-selection" to={"reprise"}>
             <div className="circle">
               <GiTransfuse className="musical-icon" />
             </div>
@@ -26,7 +26,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/super-iron-cooking-chef"}>
+          <Link className="musical-selection" to={"super-iron-cooking-chef"}>
             <div className="circle">
               <GiChefToque className="musical-icon" />
             </div>
@@ -35,7 +35,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/2084"}>
+          <Link className="musical-selection" to={"2084"}>
             <div className="circle">
               <GiCyberEye className="musical-icon" />
             </div>
@@ -43,7 +43,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/mirror-mirror"}>
+          <Link className="musical-selection" to={"mirror-mirror"}>
             <div className="circle">
               <GiMirrorMirror className="musical-icon" />
             </div>
@@ -51,7 +51,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/emerald-city"}>
+          <Link className="musical-selection" to={"emerald-city"}>
             <div className="circle">
               <GiSpaceNeedle className="musical-icon" />
             </div>
@@ -59,7 +59,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/day-one-a-sherlock-story"}>
+          <Link className="musical-selection" to={"day-one-a-sherlock-story"}>
             <div className="circle">
               <GiSherlockHolmes className="musical-icon" />
             </div>
@@ -68,7 +68,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/glitter-a-musical-parody"}>
+          <Link className="musical-selection" to={"glitter-a-musical-parody"}>
             <div className="circle">
               <GiPrettyFangs className="musical-icon" />
             </div>
@@ -77,7 +77,7 @@ function Musicals() {
           </Link>
         </div>
         <div className="musical-selection-box">
-          <Link className="musical-selection" to={"/music/one-acts"}>
+          <Link className="musical-selection" to={"one-acts"}>
             <div className="circle">
               <GiGreekTemple className="musical-icon" />
             </div>

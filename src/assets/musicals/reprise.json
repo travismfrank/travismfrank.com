@@ -1,0 +1,258 @@
+{
+  "title": "Reprise",
+  "shortTitle": "Reprise",
+  "description": "As Charlie, a dejected transgender teenager, struggles to find a reason to stay alive, he is greeted by Death. The two embark on a journey to uncover Charlie’s past in a search for meaning and hope amidst the darkness of his memories.",
+  "book": "Nora Germani",
+  "music": "Travis Frank",
+  "lyrics": "Travis Frank and Nora Germani",
+  "premiereDate": "March 20, 2015",
+  "btp": true,
+  "productions": 3,
+  "cast": 6,
+  "orchestra": 9,
+  "reviews": [
+    {
+      "credit": "Catherine Merlo, Seattle Opera",
+      "content": "I am unbelievably blown away by this entire production, and if teleportation was real, every single playwright and musical theatre actor I know would be summoned here immediately."
+    },
+    {
+      "credit": "Stephanie Kallos, best-selling author of Language Arts and Broken for You",
+      "content": "I reiterate my fervent wish that [Travis and Nora] will continue to develop this work."
+    }
+  ],
+  "credits": [
+    {
+      "productionTitle": "Premiere",
+      "creative": [
+        {
+          "title": "Director",
+          "name": "Nora Germani"
+        },
+        {
+          "title": "Assistant Director",
+          "name": "Eden Wenokur"
+        },
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Associate Music Director",
+          "name": "Abby Duell"
+        },
+        {
+          "title": "Stage Manager",
+          "name": "Amanda Balter"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Life",
+          "name": "Ella Sharp"
+        },
+        {
+          "title": "Death",
+          "name": "Miriam Oderberg Moss"
+        },
+        {
+          "title": "Charlie",
+          "name": "Conner Walsh"
+        },
+        {
+          "title": "Summer",
+          "name": "Lila Perlman"
+        },
+        {
+          "title": "Mother",
+          "name": "Quinn Smart"
+        },
+        {
+          "title": "Father",
+          "name": "Sam Johns"
+        },
+        {
+          "title": "Tom",
+          "name": "Noah Hazzard"
+        },
+        {
+          "title": "Walker",
+          "name": "Bretta McCall"
+        },
+        {
+          "title": "Kaitlin",
+          "name": "Sam Seaver"
+        },
+        {
+          "title": "Dick",
+          "name": "Timothy Doorenbos"
+        },
+        {
+          "title": "Dan",
+          "name": "Cash McClane"
+        },
+        {
+          "title": "Ensemble",
+          "name": "Mitzi Adler-Wachter, Louise Heller, Ally Kineman, Betty Schwenson, Skylar Tibbetts, Eden Wenokur"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Conductor",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Woodwind I (Flute / Piccolo)",
+          "name": "Hannah Cannady"
+        },
+        {
+          "title": "Woodwind II (Oboe)",
+          "name": "Avery Fulford"
+        },
+        {
+          "title": "Woodwind III (Clarinet / Bass Clarinet)",
+          "name": "Elena Imel"
+        },
+        {
+          "title": "Drums / Percussion",
+          "name": "Sam Brosseau"
+        },
+        {
+          "title": "Piano",
+          "name": "Caroline Baker"
+        },
+        {
+          "title": "Synthesizer",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Guitars",
+          "name": "Tristan Smith"
+        },
+        {
+          "title": "Bass",
+          "name": "Ruthmabel Boytz"
+        },
+        {
+          "title": "Violin I",
+          "name": "Clara Orndorff"
+        },
+        {
+          "title": "Violin II",
+          "name": "Elise Snoey"
+        },
+        {
+          "title": "Viola",
+          "name": "Zsa Zsa Toms, Julianna Lorenzo"
+        },
+        {
+          "title": "Cello",
+          "name": "Iris Zhou"
+        }
+      ],
+      "crew": [
+        {
+          "title": "Sound Technician",
+          "name": "Elijah Lancey"
+        },
+        {
+          "title": "Lighting Technician",
+          "name": "Amanda Balter"
+        },
+        {
+          "title": "Stagehand",
+          "name": "Sofia Thompson"
+        }
+      ]
+    },
+    {
+      "productionTitle": "Revised Reading",
+      "creative": [
+        {
+          "title": "Director",
+          "name": "Nora Germani"
+        },
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Life",
+          "name": "Ella Sharp"
+        },
+        {
+          "title": "Death",
+          "name": "Margaret Dauer"
+        },
+        {
+          "title": "Charlie",
+          "name": "Dan Ostrander"
+        },
+        {
+          "title": "Summer",
+          "name": "Abby Duell"
+        },
+        {
+          "title": "Mother",
+          "name": "Walker Caplan"
+        },
+        {
+          "title": "Father",
+          "name": "James Williams"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Cello",
+          "name": "Coulter Dittman"
+        }
+      ]
+    },
+    {
+      "productionTitle": "Berklee Reading",
+      "creative": [
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Life",
+          "name": "Grace Stephenson"
+        },
+        {
+          "title": "Death",
+          "name": "Rhys Conklin"
+        },
+        {
+          "title": "Charlie",
+          "name": "Nicholas Preziosi"
+        },
+        {
+          "title": "Summer",
+          "name": "Garianna Geiselman"
+        },
+        {
+          "title": "Mother",
+          "name": "Lily Lord"
+        },
+        {
+          "title": "Father",
+          "name": "William Eastland"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        }
+      ]
+    }
+  ]
+}
