@@ -1,0 +1,74 @@
+{
+  "title": "2084",
+  "shortTitle": "2084",
+  "description": "The year is 2084. A dense cloud covers London, and sunlight has vanished. As the city sleeps, Winston makes a startling discovery: beneath the misty fog, powerful forces conspire to bring the world to heel, and Winston must act before it's too late. In the footsteps of George Orwell's 1984 comes a story of dystopia, love, and power.",
+  "book": "Travis Frank and Leonoor Rinke de Wit",
+  "music": "Travis Frank and Leonoor Rinke de Wit",
+  "lyrics": "Travis Frank and Leonoor Rinke de Wit",
+  "premiereDate": "October 20, 2017",
+  "btp": false,
+  "productions": 1,
+  "cast": 10,
+  "orchestra": 1,
+  "reviews": [],
+  "credits": [
+    {
+      "productionTitle": "Premiere",
+      "creative": [
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Winston",
+          "name": "Nicholas Preziosi"
+        },
+        {
+          "title": "Marigold",
+          "name": "Maria Pino"
+        },
+        {
+          "title": "Gary",
+          "name": "Tim Sheils"
+        },
+        {
+          "title": "Sylvester",
+          "name": "Edward Sweeney"
+        },
+        {
+          "title": "Granny",
+          "name": "Natasha Torres"
+        },
+        {
+          "title": "Leighanne",
+          "name": "Janina Salorio"
+        },
+        {
+          "title": "Camila / Claire",
+          "name": "Garianna Geiselman"
+        },
+        {
+          "title": "Christine",
+          "name": "Alexandra Veltri"
+        },
+        {
+          "title": "Harold",
+          "name": "Benjamin Romanelli"
+        },
+        {
+          "title": "Ensemble",
+          "name": "Garianna Geiselman, Raymie Polk, Benjamin Romanelli, Alexandra Veltri"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        }
+      ],
+      "crew": []
+    }
+  ]
+}
