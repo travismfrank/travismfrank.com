@@ -73,8 +73,8 @@ function Musical() {
         <p><b>Premiere</b> - {musicalData.premiereDate}</p>
         {musicalData.btp && <p>Originally produced by <Link to={"/about/leadership"}>Black Tie Productions</Link></p>}
         <p><b>Productions to date</b> - {musicalData.productions}</p>
-        <p><b>Cast Size</b> - {musicalData.cast}</p>
-        <p><b>Orchestra Size</b> - {musicalData.orchestra}</p>
+        <p><b>Cast size</b> - {musicalData.cast}</p>
+        <p><b>Orchestra size</b> - {musicalData.orchestra}</p>
       </SectionToggle>
       <SectionToggle open={true} sectionTitle={"Description"}>
         <p>{musicalData.description}</p>
@@ -100,7 +100,6 @@ function Musical() {
         </div>
         {album.length > 0 && <Flickity className="carousel" options={{
           imagesLoaded: true,
-          pageDots: true,
           wrapAround: true
         }}>
           {album.map(image => {
@@ -120,8 +119,40 @@ function Musical() {
           More photos available <a href={musicalData.moreImagesLink} target="_blank">here</a>
         </p>}
       </SectionToggle>
-      <SectionToggle open={false} sectionTitle={"Credits"}>
-        {/* Read from JSON */}
+      <SectionToggle open={true} sectionTitle={"Credits"}>
+        {musicalData.credits.map(production => {
+          return (
+            <div className="credits-wrapper">
+              <h3>{production.productionTitle}</h3>
+              <h4>Creative Team</h4>
+              {production.creative.map(role => {
+                return (
+                  <p><b>{role.title}</b> - {role.name}</p>
+                );
+              })}
+              <h4>Cast</h4>
+              {production.cast.map(role => {
+                return (
+                  <p><b>{role.title}</b> - {role.name}</p>
+                );
+              })}
+              <h4>Orchestra</h4>
+              {production.orchestra.map(role => {
+                return (
+                  <p><b>{role.title}</b> - {role.name}</p>
+                );
+              })}
+              {production.crew.length > 0 && <>
+                <h4>Crew</h4>
+                {production.crew.map(role => {
+                  return (
+                    <p><b>{role.title}</b> - {role.name}</p>
+                  );
+                })}
+              </>}
+            </div>
+          );
+        })}
       </SectionToggle>
     </BannerShell>
   );

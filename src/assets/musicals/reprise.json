@@ -166,7 +166,7 @@
       ]
     },
     {
-      "productionTitle": "Revised Reading",
+      "productionTitle": "Pocket Theatre Reading",
       "creative": [
         {
           "title": "Director",
@@ -212,7 +212,8 @@
           "title": "Cello",
           "name": "Coulter Dittman"
         }
-      ]
+      ],
+      "crew": []
     },
     {
       "productionTitle": "Berklee Reading",
@@ -257,7 +258,8 @@
           "title": "Piano",
           "name": "Travis Frank"
         }
-      ]
+      ],
+      "crew": []
     }
   ]
 }

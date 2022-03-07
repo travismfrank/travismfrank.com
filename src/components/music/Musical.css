@@ -17,6 +17,8 @@
   margin-top: 1rem;
 }
 
+/* Carousel */
+
 .carousel {
   margin: 1rem 0 2rem 0;
 }
@@ -33,4 +35,39 @@
 .carousel-image-container img {
   display: block;
   max-height: 100%;
+}
+
+.more-photos {
+  text-align: center;
+}
+
+/* Credits */
+
+.credits-wrapper h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+.credits-wrapper h4 {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0.75rem 0.5rem;
+  display: inline-block;
+  position: relative;
+  line-height: 0.5;
+}
+
+.credits-wrapper h4::after {
+  content: "";
+  width: 10000px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  top: 50%;
+}
+
+.credits-wrapper h4::after {
+  left: 100%;
+  margin-left: 0.5rem;
 }
