@@ -16,3 +16,21 @@
   justify-content: center;
   margin-top: 1rem;
 }
+
+.carousel {
+  margin: 1rem 0 2rem 0;
+}
+
+.carousel-image-container {
+  height: 207px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.carousel-image-container img {
+  display: block;
+  max-height: 100%;
+}

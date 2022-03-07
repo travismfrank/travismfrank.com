@@ -1,6 +1,9 @@
+import { useEffect, useState } from 'react';
+import Flickity from 'react-flickity-component';
 import { Link, useParams } from 'react-router-dom';
 
 import './Musical.css';
+import './Flickity.css';
 
 // Import musical data
 const musicalJSON = import.meta.globEager('./../../assets/musicals/*.json');
@@ -12,34 +15,53 @@ const musicalAlbums = import.meta.globEager('./../../assets/images/musicals/albu
 
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
+import generateSrcmap from '../../utils/srcmap';
 import generateSrcset from '../../utils/srcset';
 
 function Musical() {
+  const [album, setAlbum] = useState([]);
   const { musicalName } = useParams();
   const musicalData = musicalJSON['./../../assets/musicals/' + musicalName + '.json'];
 
+  useEffect(() => {
+    if (musicalAlbums['./../../assets/images/musicals/albums/' + musicalName + '-1.jpg']) {
+      const tempAlbum = [];
+      for (let num = 1; num <= 5; num++) {
+        tempAlbum.push({
+          baseAlbumImageUrl: musicalAlbums['./../../assets/images/musicals/albums/' + musicalName + '-' + num + '.jpg'].default,
+          albumImageSrcmap: generateSrcmap(
+            musicalAlbums,
+            './../../assets/images/musicals/albums/',
+            musicalName + '-' + num,
+            '.jpg'
+          )
+        });
+      }
+      setAlbum(tempAlbum);
+    }
+  }, [])
+
   // Banner
   const bannerImageUrl = musicalBanners['./../../assets/images/musicals/banners/' + musicalName + '.jpg'].default;
-  const bannerImageUrl480 = musicalBanners['./../../assets/images/musicals/banners/' + musicalName + '-480.jpg'].default;
-  const bannerImageUrl720 = musicalBanners['./../../assets/images/musicals/banners/' + musicalName + '-720.jpg'].default;
-  const bannerImageUrl1080 = musicalBanners['./../../assets/images/musicals/banners/' + musicalName + '-1080.jpg'].default;
-  const bannerImageUrl3840 = musicalBanners['./../../assets/images/musicals/banners/' + musicalName + '-3840.jpg'].default;
+  const bannerSrcmap = generateSrcmap(
+    musicalBanners,
+    './../../assets/images/musicals/banners/',
+    musicalName,
+    '.jpg'
+  );
 
   // Poster
   const posterImageUrl = musicalPosters['./../../assets/images/musicals/posters/' + musicalName + '.jpg'].default;
-  const posterImageUrl480 = musicalPosters['./../../assets/images/musicals/posters/' + musicalName + '-480.jpg'].default;
-  const posterImageUrl720 = musicalPosters['./../../assets/images/musicals/posters/' + musicalName + '-720.jpg'].default;
-  const posterImageUrl1080 = musicalPosters['./../../assets/images/musicals/posters/' + musicalName + '-1080.jpg'].default;
-  const posterImageUrl3840 = musicalPosters['./../../assets/images/musicals/posters/' + musicalName + '-3840.jpg'].default;
+  const posterSrcmap = generateSrcmap(
+    musicalPosters,
+    './../../assets/images/musicals/posters/',
+    musicalName,
+    '.jpg'
+  );
 
   return (
     <BannerShell bannerSrc={bannerImageUrl}
-      srcMap={{
-        480: bannerImageUrl480,
-        720: bannerImageUrl720,
-        1080: bannerImageUrl1080,
-        3840: bannerImageUrl3840
-      }}
+      srcMap={bannerSrcmap}
       titleText={musicalData.shortTitle}
     >
       <div className="writing-credits">
@@ -71,16 +93,32 @@ function Musical() {
         <div className="poster-container">
           <img
             src={posterImageUrl}
-            srcSet={generateSrcset({
-              480: posterImageUrl480,
-              720: posterImageUrl720,
-              1080: posterImageUrl1080,
-              3840: posterImageUrl3840
-            })}
+            srcSet={generateSrcset(posterSrcmap)}
             sizes="80vw"
             className="poster"
           />
         </div>
+        {album.length > 0 && <Flickity className="carousel" options={{
+          imagesLoaded: true,
+          pageDots: true,
+          wrapAround: true
+        }}>
+          {album.map(image => {
+            return (
+              <div className="carousel-image-container">
+                <img
+                  key={image.baseAlbumImageUrl}
+                  src={image.baseAlbumImageUrl}
+                  srcSet={generateSrcset(image.albumImageSrcmap)}
+                  sizes="80vw"
+                />
+              </div>
+            );
+          })}
+        </Flickity>}
+        {musicalData.moreImagesLink && <p className="more-photos">
+          More photos available <a href={musicalData.moreImagesLink} target="_blank">here</a>
+        </p>}
       </SectionToggle>
       <SectionToggle open={false} sectionTitle={"Credits"}>
         {/* Read from JSON */}
