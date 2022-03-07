@@ -1,0 +1,18 @@
+.writing-credits {
+  margin-bottom: 1rem;
+}
+
+.writing-credits p {
+  margin: 0;
+}
+
+.review-credit {
+  font-size: 0.65rem;
+  margin: 0 0 0 0.5rem;
+}
+
+.poster-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}

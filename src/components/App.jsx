@@ -54,13 +54,16 @@ function App() {
         </Route>
         <Route path="open-source" element={<OpenSource />} />
         <Route path="music">
-          <Route path="musicals" element={<Musicals />}>
+          <Route path="musicals">
+            <Route index element={<Musicals />} />
             <Route path=":musicalName" element={<Musical />} />
           </Route>
-          <Route path="reels" element={<Reels />}>
+          <Route path="reels">
+            <Route index element={<Reels />} />
             <Route path=":reelName" element={<Reel />} />
           </Route>
-          <Route path="records" element={<Records />}>
+          <Route path="records">
+            <Route index element={<Records />} />
             <Route path=":recordName" element={<Record />} />
           </Route>
           <Route path="theatre-credits" element={<TheatreCredits />} />

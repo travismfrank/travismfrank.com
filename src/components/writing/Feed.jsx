@@ -62,8 +62,6 @@ function Feed() {
           </div>
         );
       })}
-      <div className="footer spacer" />
-      <div className="footer" />
     </div>
   );
 }
