@@ -1,0 +1,204 @@
+{
+  "title": "Emerald City",
+  "shortTitle": "Emerald City",
+  "description": "After Jonathan Small, a North Dakota native, graduates from college with a degree in computer science, he is offered a job with Microsoft. Jonathan believes he will create a new, normal life for himself in Seattle, but the Emerald City has never quite been normal.",
+  "moreImagesLink": "https://flic.kr/s/aHsjZKPi2t",
+  "book": "Nora Germani",
+  "music": "Travis Frank",
+  "lyrics": "Travis Frank and Nora Germani",
+  "premiereDate": "July 17, 2014",
+  "btp": true,
+  "productions": 2,
+  "cast": 20,
+  "orchestra": 26,
+  "reviews": [],
+  "credits": [
+    {
+      "productionTitle": "Premiere",
+      "creative": [
+        {
+          "title": "Director",
+          "name": "Nora Germani"
+        },
+        {
+          "title": "Music Director",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Choreographer",
+          "name": "Margaret Dauer"
+        },
+        {
+          "title": "Stage Manager",
+          "name": "Amanda Balter"
+        },
+        {
+          "title": "Set Design",
+          "name": "Sam Johns and Amanda Balter"
+        },
+        {
+          "title": "Costume Design",
+          "name": "Nora Germani and Katy Morrison"
+        },
+        {
+          "title": "Sound Design",
+          "name": "Elijah Lancey and Mary Luken Raz"
+        },
+        {
+          "title": "Lighting Design",
+          "name": "Amanda Balter and Nora Germani"
+        },
+        {
+          "title": "Makeup Design",
+          "name": "Grace Vizzare"
+        },
+        {
+          "title": "Poster Design",
+          "name": "Bretta Marie Blankenau"
+        }
+      ],
+      "cast": [
+        {
+          "title": "Jonathan Small",
+          "name": "Sam Johns"
+        },
+        {
+          "title": "Amy",
+          "name": "Anna Vizzare"
+        },
+        {
+          "title": "Zane Pine",
+          "name": "Henry Whittington"
+        },
+        {
+          "title": "Sarah Pike",
+          "name": "Miriam Oderberg Moss"
+        },
+        {
+          "title": "Matthew",
+          "name": "Conrad Spiekerman"
+        },
+        {
+          "title": "Sage",
+          "name": "Sloane Roach"
+        },
+        {
+          "title": "Daisy Gold",
+          "name": "Sam Seaver"
+        },
+        {
+          "title": "Hipsters",
+          "name": "Eden Wenokur, Nicole Olmstead, Emma Hokoda, Quinn Smart, Betty Schwensen, Conner Walsh, Timothy Doorenbos"
+        },
+        {
+          "title": "Ensemble",
+          "name": "Mitzi Adler-Wachter, Tiasha Datta, Rhys Hamlet, Grace Heller, Neve Levinson, Molly Whitson"
+        }
+      ],
+      "orchestra": [
+        {
+          "title": "Conductor",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Woodwind I (Flute)",
+          "name": "Olivia Rea"
+        },
+        {
+          "title": "Woodwind II (Flute / Piccolo / Alto Sax)",
+          "name": "Nam Simran Boyd"
+        },
+        {
+          "title": "Woodwind III (Clarinet)",
+          "name": "Emma Casper"
+        },
+        {
+          "title": "Woodwind IV (Clarinet / Alto Sax)",
+          "name": "Elena Imel"
+        },
+        {
+          "title": "Woodwind V (Clarinet / Tenor Sax)",
+          "name": "Lili Stevens"
+        },
+        {
+          "title": "Woodwind VI (Bassoon)",
+          "name": "Claire Noble"
+        },
+        {
+          "title": "Horn",
+          "name": "Cole Pettit"
+        },
+        {
+          "title": "Trumpet",
+          "name": "Laura O'Bannon and Maddie Ewbank"
+        },
+        {
+          "title": "Trombone",
+          "name": "Aiyana Mehta"
+        },
+        {
+          "title": "Euphonium / Tuba",
+          "name": "Grace Paananen"
+        },
+        {
+          "title": "Drums",
+          "name": "Samuel Brosseau / Shannon Horst"
+        },
+        {
+          "title": "Percussion",
+          "name": "Louise Heller / Jamie Sain and Mason Lim"
+        },
+        {
+          "title": "Harp",
+          "name": "Isabelle Moore"
+        },
+        {
+          "title": "Guitars",
+          "name": "Tristan Smith"
+        },
+        {
+          "title": "Electric Bass",
+          "name": "Ruthmabel Boytz"
+        },
+        {
+          "title": "Piano",
+          "name": "Shannon Horst / Caroline Baker / Travis Frank"
+        },
+        {
+          "title": "Violin",
+          "name": "Karina Cooper / Noah Hazzard and Nan Wu"
+        },
+        {
+          "title": "Viola",
+          "name": "Ian Jammes and Rachel Liu"
+        },
+        {
+          "title": "Cello",
+          "name": "Eric Cooper and Chessa Casper"
+        },
+        {
+          "title": "Double Bass",
+          "name": "Stella Stannard and Barret Peck"
+        }
+      ],
+      "crew": [
+        {
+          "title": "Sound Technician",
+          "name": "Mary Luken Raz"
+        },
+        {
+          "title": "Lighting Technician",
+          "name": "Amanda Balter"
+        },
+        {
+          "title": "Communications Manager",
+          "name": "Nora Germani"
+        },
+        {
+          "title": "Stagehands",
+          "name": "Sarah Dunn, Maddie McAllister, Sofia Thompson, Annie Tynan"
+        }
+      ]
+    }
+  ]
+}

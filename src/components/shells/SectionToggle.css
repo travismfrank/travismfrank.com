@@ -55,14 +55,14 @@
 }
 
 .section-content.enter-active {
-  max-height: 12rem;
+  max-height: 80rem;
   opacity: 1;
   visibility: visible;
   transition: max-height 200ms, opacity 200ms, visibility 200ms;
 }
 
 .section-content.exit {
-  max-height: 12rem;
+  max-height: 80rem;
   opacity: 1;
   visibility: visible;
 }
