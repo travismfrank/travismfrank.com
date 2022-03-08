@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 import './TheatreCredits.css';
 
 import BannerShell from '../shells/BannerShell';
