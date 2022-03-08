@@ -1,89 +1,72 @@
-import {
-  GiChefToque,
-  GiCyberEye,
-  GiGreekTemple,
-  GiMirrorMirror,
-  GiPrettyFangs,
-  GiSherlockHolmes,
-  GiSpaceNeedle,
-  GiTransfuse
-} from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 
 import './Musicals.css';
+import generateSrcmap from '../../utils/srcmap';
+import generateSrcset from '../../utils/srcset';
+
+// Import images
+import { musicalBanners } from './Musical';
 
 function Musicals() {
+  const musicals = [
+    {
+      "title": "Reprise",
+      "id": "reprise"
+    },
+    {
+      "title": "Super Iron Cooking Chef",
+      "id": "super-iron-cooking-chef"
+    },
+    {
+      "title": "Mirror, Mirror",
+      "id": "mirror-mirror"
+    },
+    {
+      "title": "2084",
+      "id": "2084"
+    },
+    {
+      "title": "Emerald City",
+      "id": "emerald-city"
+    },
+    {
+      "title": "Day One: A Sherlock Story",
+      "id": "day-one-a-sherlock-story"
+    },
+    {
+      "title": "Glitter: A Musical Parody",
+      "id": "glitter-a-musical-parody"
+    }
+  ];
+
   return (
     <div className="musicals-wrapper">
-      <h1>Original Musicals</h1>
+      <div className="header">
+        <h1 className="musicals-title">Original Musicals</h1>
+      </div>
+      <div className="header spacer" />
       <div className="musical-selection-wrapper">
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"reprise"}>
-            <div className="circle">
-              <GiTransfuse className="musical-icon" />
+        {musicals.map(show => {
+          const bannerImageUrl = musicalBanners['./../../assets/images/musicals/banners/' + show.id + '.jpg'].default;
+          const bannerSrcmap = generateSrcmap(
+            musicalBanners,
+            './../../assets/images/musicals/banners/',
+            show.id,
+            '.jpg'
+          );
+
+          return (
+            <div className="musical-selection">
+              <Link className="musical-link" to={show.id} />
+              <img
+                src={bannerImageUrl}
+                srcSet={generateSrcset(bannerSrcmap)}
+                sizes="100vw"
+              />
+              <h3>{show.title}</h3>
             </div>
-            <h3>Reprise</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"super-iron-cooking-chef"}>
-            <div className="circle">
-              <GiChefToque className="musical-icon" />
-            </div>
-            <h3>Super Iron</h3>
-            <h3>Cooking Chef</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"2084"}>
-            <div className="circle">
-              <GiCyberEye className="musical-icon" />
-            </div>
-            <h3>2084</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"mirror-mirror"}>
-            <div className="circle">
-              <GiMirrorMirror className="musical-icon" />
-            </div>
-            <h3>Mirror, Mirror</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"emerald-city"}>
-            <div className="circle">
-              <GiSpaceNeedle className="musical-icon" />
-            </div>
-            <h3>Emerald City</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"day-one-a-sherlock-story"}>
-            <div className="circle">
-              <GiSherlockHolmes className="musical-icon" />
-            </div>
-            <h3>Day One:</h3>
-            <h3>A Sherlock Story</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"glitter-a-musical-parody"}>
-            <div className="circle">
-              <GiPrettyFangs className="musical-icon" />
-            </div>
-            <h3>Glitter:</h3>
-            <h3>A Musical Parody</h3>
-          </Link>
-        </div>
-        <div className="musical-selection-box">
-          <Link className="musical-selection" to={"one-acts"}>
-            <div className="circle">
-              <GiGreekTemple className="musical-icon" />
-            </div>
-            <h3>One-Acts</h3>
-          </Link>
-        </div>
+          );
+        })}
       </div>
     </div>
   );

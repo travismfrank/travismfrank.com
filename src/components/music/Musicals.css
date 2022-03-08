@@ -1,60 +1,40 @@
-.musicals-wrapper {
-  height: 100%;
-  overflow: scroll;
-}
-
-.musicals-wrapper h1 {
+.musicals-title {
   font-family: 'Source Code Pro', monospace;
   margin: 0;
   padding: 1.5rem;
-}
-
-.musical-selection-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.musical-selection-box {
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 10rem;
-  min-height: 10rem;
+  padding-bottom: 0;
 }
 
 .musical-selection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
 }
 
-.musical-selection::before,
-.musical-selection::after {
+.musical-link {
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.musical-link::before,
+.musical-link::after {
   height: 0;
 }
 
+.musical-selection img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
 .musical-selection h3 {
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  z-index: 2;
   margin: 0;
-}
-
-.musical-icon {
-  font-size: 3rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
   padding: 1rem;
-}
-
-.circle {
-  margin: 0.25rem;
-  border: 0.25rem solid transparent;
-  border-radius: 50%;
-  transition: border-color 200ms;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle:hover {
-  border-color: black;
 }

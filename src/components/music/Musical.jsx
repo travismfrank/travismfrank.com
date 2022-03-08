@@ -9,7 +9,7 @@ import './Flickity.css';
 const musicalJSON = import.meta.globEager('./../../assets/musicals/*.json');
 
 // Import images
-const musicalBanners = import.meta.globEager('./../../assets/images/musicals/banners/*');
+export const musicalBanners = import.meta.globEager('./../../assets/images/musicals/banners/*');
 const musicalPosters = import.meta.globEager('./../../assets/images/musicals/posters/*');
 const musicalAlbums = import.meta.globEager('./../../assets/images/musicals/albums/*');
 
