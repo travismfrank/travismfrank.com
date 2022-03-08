@@ -1,0 +1,188 @@
+{
+  "regionalTheatre": [
+    {
+      "title": "Moby-Dick",
+      "titleExtra": "Dave Malloy",
+      "producer": "American Repertory Theatre",
+      "role": "Music Assistant, Copyist"
+    },
+    {
+      "title": "Bonnie and Clyde",
+      "titleExtra": "",
+      "producer": "Studio 18 Productions",
+      "role": "Music Director, Conductor, Keys 1"
+    },
+    {
+      "title": "Kristin Chenoweth",
+      "titleExtra": "",
+      "producer": "Virginia Arts Festival",
+      "role": "Copyist"
+    }
+  ],
+  "selectedOriginalMusicalTheatre": [
+    {
+      "title": "Curtain Up 2019",
+      "titleExtra": "",
+      "producer": "Berklee College of Music",
+      "role": "Music Supervisor, Orchestrator, Keys 1"
+    },
+    {
+      "title": "Quantum Janis",
+      "titleExtra": "Reading",
+      "producer": "Ko Theater Festival",
+      "role": "Music Director, Pianist"
+    },
+    {
+      "title": "2084",
+      "titleExtra": "Reading",
+      "producer": "Independent",
+      "role": "Composer, Lyricist, Music Director, Pianist"
+    },
+    {
+      "title": "Reprise",
+      "titleExtra": "Reading",
+      "producer": "Independent",
+      "role": "Composer, Lyricist, Music Director, Pianist"
+    },
+    {
+      "title": "Curtain Up 2017 & Curtain Up 2018",
+      "titleExtra": "",
+      "producer": "Berklee College of Music",
+      "role": "Music Director, Orchestrator, Conductor"
+    },
+    {
+      "title": "Mirror, Mirror",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist"
+    },
+    {
+      "title": "Children of the Decree",
+      "titleExtra": "Reading",
+      "producer": "Independent",
+      "role": "Music Director, Copyist, Pianist"
+    },
+    {
+      "title": "Olympus",
+      "titleExtra": "Reading",
+      "producer": "The Pocket Theater",
+      "role": "Composer, Music Director, Pianist"
+    },
+    {
+      "title": "Musical Notes",
+      "titleExtra": "",
+      "producer": "The Pocket Theater",
+      "role": "Composer, Music Director, Music Director, Pianist"
+    },
+    {
+      "title": "The Queen's Dilemma",
+      "titleExtra": "",
+      "producer": "Hebrew College",
+      "role": "Music Director, Arranger, Orchestrator, Conductor, Copyist, Pianist"
+    },
+    {
+      "title": "Reprise",
+      "titleExtra": "Reading",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist, Music Director, Pianist"
+    },
+    {
+      "title": "Super Iron Cooking Chef",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist, Music Director, Conductor, Keys 1"
+    },
+    {
+      "title": "Reprise",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist, Music Director, Conductor, Keys 2"
+    },
+    {
+      "title": "Emerald City",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist, Music Director, Conductor"
+    },
+    {
+      "title": "Day One: A Sherlock Story",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist, Music Director, Conductor"
+    },
+    {
+      "title": "Glitter: A Musical Parody",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Composer, Lyricist, Music Director, Pianist"
+    }
+  ],
+  "selectedRepertoryTheatre": [
+    {
+      "title": "2019 Commencement Concert",
+      "titleExtra": "Alex Lacamoire, Honorary Doctorate",
+      "producer": "Berklee College of Music",
+      "role": "Orchestrator, Conductor"
+    },
+    {
+      "title": "Next to Normal",
+      "titleExtra": "",
+      "producer": "Harvard University",
+      "role": "Keys 2"
+    },
+    {
+      "title": "Next to Normal",
+      "titleExtra": "",
+      "producer": "Emerson College",
+      "role": "Keys 1"
+    },
+    {
+      "title": "Heathers",
+      "titleExtra": "",
+      "producer": "The Pocket Theater",
+      "role": "Music Director, Keys 1"
+    },
+    {
+      "title": "Edges",
+      "titleExtra": "",
+      "producer": "The Pocket Theater",
+      "role": "Music Director, Pianist"
+    },
+    {
+      "title": "[title of show]",
+      "titleExtra": "",
+      "producer": "The Pocket Theater",
+      "role": "Music Director, Pianist"
+    },
+    {
+      "title": "Bat Boy",
+      "titleExtra": "",
+      "producer": "Newton South High School",
+      "role": "Music Director, Keys 1"
+    },
+    {
+      "title": "Parade",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Music Director, Pianist"
+    },
+    {
+      "title": "The Last Five Years",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Music Director, Pianist"
+    },
+    {
+      "title": "Songs for a New World",
+      "titleExtra": "",
+      "producer": "Black Tie Productions",
+      "role": "Music Director, Pianist"
+    },
+    {
+      "title": "The 25th Annual Putnam County Spelling Bee",
+      "titleExtra": "",
+      "producer": "Studio 18 Productions",
+      "role": "Music Director, Conductor, Pianist"
+    }
+  ]
+}
