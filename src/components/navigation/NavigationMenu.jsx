@@ -151,9 +151,9 @@ function NavigationMenu({ open, setOpen }) {
           />
           <NavigationItem
             Icon={GiHeadphones}
-            linkTarget={"/music/recordings"}
+            linkTarget={"/music/records"}
             onClick={linkClickHandler}
-            text={"Recordings"}
+            text={"Records"}
           />
           <NavigationItem
             Icon={GiMusicSpell}
