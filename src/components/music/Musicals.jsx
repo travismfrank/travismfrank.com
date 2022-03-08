@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
-
 import './Musicals.css';
+
+import ImageLink from '../shells/ImageLink';
+
 import generateSrcmap from '../../utils/srcmap';
-import generateSrcset from '../../utils/srcset';
 
 // Import images
 import { musicalBanners } from './Musical';
@@ -56,15 +56,12 @@ function Musicals() {
           );
 
           return (
-            <div className="musical-selection">
-              <Link className="musical-link" to={show.id} />
-              <img
-                src={bannerImageUrl}
-                srcSet={generateSrcset(bannerSrcmap)}
-                sizes="100vw"
-              />
-              <h3>{show.title}</h3>
-            </div>
+            <ImageLink
+              imageSrcmap={bannerSrcmap}
+              imageUrl={bannerImageUrl}
+              link={show.id}
+              title={show.title}
+            />
           );
         })}
       </div>

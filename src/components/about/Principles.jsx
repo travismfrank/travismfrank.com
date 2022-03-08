@@ -1,21 +1,24 @@
 import './Principles.css';
-import principlesImageUrl from '../../assets/images/principles.jpg';
-import principlesImageUrl480 from '../../assets/images/principles-480.jpg';
-import principlesImageUrl720 from '../../assets/images/principles-720.jpg';
-import principlesImageUrl1080 from '../../assets/images/principles-1080.jpg';
-import principlesImageUrl3840 from '../../assets/images/principles-3840.jpg';
+
 import BannerShell from '../shells/BannerShell';
+import generateSrcmap from '../../utils/srcmap';
+
+// Import images
+const principlesImages = import.meta.globEager('./../../assets/images/about/principles/*');
 
 function Principles() {
+  const principlesImageUrl = principlesImages['./../../assets/images/about/principles/principles.jpg'].default;
+  const principlesSrcmap = generateSrcmap(
+    principlesImages,
+    './../../assets/images/about/principles/',
+    'principles',
+    '.jpg'
+  );
+
   return (
     <BannerShell
       bannerSrc={principlesImageUrl}
-      srcMap={{
-        480: principlesImageUrl480,
-        720: principlesImageUrl720,
-        1080: principlesImageUrl1080,
-        3840: principlesImageUrl3840
-      }}
+      srcMap={principlesSrcmap}
       titleText="Principles"
     >
       <p className="principles-preamble">

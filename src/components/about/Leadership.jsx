@@ -1,24 +1,27 @@
 import { Link } from 'react-router-dom';
 
 import './Leadership.css';
-import leadershipImageUrl from '../../assets/images/leadership.jpg';
-import leadershipImageUrl480 from '../../assets/images/leadership-480.jpg';
-import leadershipImageUrl720 from '../../assets/images/leadership-720.jpg';
-import leadershipImageUrl1080 from '../../assets/images/leadership-1080.jpg';
-import leadershipImageUrl3840 from '../../assets/images/leadership-3840.jpg';
+
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
+import generateSrcmap from '../../utils/srcmap';
+
+// Import images
+const leadershipImages = import.meta.globEager('./../../assets/images/about/leadership/*');
 
 function Leadership() {
+  const leadershipImageUrl = leadershipImages['./../../assets/images/about/leadership/leadership.jpg'].default;
+  const leadershipSrcmap = generateSrcmap(
+    leadershipImages,
+    './../../assets/images/about/leadership/',
+    'leadership',
+    '.jpg'
+  );
+
   return (
     <BannerShell
       bannerSrc={leadershipImageUrl}
-      srcMap={{
-        480: leadershipImageUrl480,
-        720: leadershipImageUrl720,
-        1080: leadershipImageUrl1080,
-        3840: leadershipImageUrl3840
-      }}
+      srcMap={leadershipSrcmap}
       titleText="Leadership"
     >
       <p className="leadership-preamble">

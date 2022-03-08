@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 
 import './Landing.css';
-import landingImageUrl from '../../../src/assets/images/landing_headshot.jpg';
-import landingImageUrl480 from '../../assets/images/landing_headshot-480.jpg';
-import landingImageUrl720 from '../../assets/images/landing_headshot-720.jpg';
-import landingImageUrl1080 from '../../assets/images/landing_headshot-1080.jpg';
-import landingImageUrl3840 from '../../assets/images/landing_headshot-3840.jpg';
+
+import generateSrcmap from '../../utils/srcmap';
 import generateSrcset from '../../utils/srcset.js';
+
+// Import images
+const landingImages = import.meta.globEager('./../../assets/images/landing/*');
 
 function Landing() {
   const [contents, setContents] = useState('');
@@ -65,6 +65,14 @@ function Landing() {
     await typewriter();
   }, [index, backspacingIndex]);
 
+  const landingImageUrl = landingImages['./../../assets/images/landing/landing_headshot.jpg'].default;
+  const landingSrcmap = generateSrcmap(
+    landingImages,
+    './../../assets/images/landing/',
+    'landing_headshot',
+    '.jpg'
+  );
+
   return (
     <div className="landing-container">
       <div id="typewriter">
@@ -72,12 +80,7 @@ function Landing() {
       </div>
       <img id="landing-headshot"
            src={landingImageUrl}
-           srcSet={generateSrcset({
-             480: landingImageUrl480,
-             720: landingImageUrl720,
-             1080: landingImageUrl1080,
-             3840: landingImageUrl3840
-           })}
+           srcSet={generateSrcset(landingSrcmap)}
            sizes="100vw"
            alt="travis-headshot"
       />
