@@ -31,8 +31,6 @@ Images are stored in `src/assets/images`, including originals and resized versio
 node scripts/convert_images.js
 ```
 
-Don't forget to move the images back to `src/assets/images`!
-
 ## Posts
 Posts are stored in `src/assets/posts`, with post-specific images stored in `src/assets/images/posts`.
 
