@@ -19,6 +19,7 @@ Dev server at localhost:3000
 Build and preview
 
 ```zsh
+export SENDGRID_API_KEY=<API_KEY>
 npm run build && npm run preview
 ```
 

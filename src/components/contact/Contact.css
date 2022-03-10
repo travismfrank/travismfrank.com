@@ -1,0 +1,24 @@
+.email-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-form input {
+  margin: 1rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.25rem;
+}
+
+#email-message-input {
+  margin: 1rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.25rem;
+  resize: vertical;
+}
+
+#email-submit {
+  padding: 0.5rem 0.9rem;
+}
