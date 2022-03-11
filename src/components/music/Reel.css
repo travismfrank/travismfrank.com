@@ -1,0 +1,21 @@
+.reel-title {
+  margin: 0;
+}
+
+.reel-genre {
+  position: relative;
+  left: 1rem;
+  margin-top: 0.25rem;
+  font-size: 0.65rem;
+}
+
+.reel-video-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.reel-video {
+  width: 320px;
+  height: 160px;
+}
