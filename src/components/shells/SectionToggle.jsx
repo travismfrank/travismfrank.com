@@ -21,7 +21,7 @@ function SectionToggle({ children, open, sectionTitle }) {
       </div>
       <CSSTransition
         in={sectionOpen}
-        timeout={200}
+        timeout={300}
         unmountOnExit
       >
         <div className="section-content">
