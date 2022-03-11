@@ -51,25 +51,25 @@
 .section-content.enter {
   max-height: 0;
   opacity: 0;
-  visibility: hidden;
 }
 
 .section-content.enter-active {
-  max-height: 80rem;
+  max-height: 100rem;
   opacity: 1;
-  visibility: visible;
-  transition: max-height 200ms, opacity 200ms, visibility 200ms;
+  transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition-duration: 300ms;
+  transition-property: max-height, opacity;
 }
 
 .section-content.exit {
-  max-height: 80rem;
+  max-height: 100rem;
   opacity: 1;
-  visibility: visible;
 }
 
 .section-content.exit-active {
   max-height: 0;
   opacity: 0;
-  visibility: hidden;
-  transition: max-height 200ms, opacity 200ms, visibility 200ms;
+  transition-timing-function: ease-out;
+  transition-duration: 300ms;
+  transition-property: max-height, opacity;
 }
