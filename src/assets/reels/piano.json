@@ -1,0 +1,52 @@
+{
+  "reels": [
+    {
+      "videoLink": "https://www.youtube.com/watch?v=98ZrN_go8z4",
+      "genre": "Musical Theatre - Contemporary",
+      "title": "Freeze Your Brain",
+      "byline": "Music & Lyrics by Laurence O'Keefe and Kevin Murphy",
+      "credits": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Vocals",
+          "name": "Bailey Forman"
+        }
+      ]
+    },
+    {
+      "videoLink": "https://www.youtube.com/watch?v=CwW8u0M9ISk",
+      "genre": "Classic Rock",
+      "title": "Wanted Dead or Alive",
+      "byline": "Music & Lyrics by Jon Bon Jovi and Richie Sambora",
+      "credits": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Vocals",
+          "name": "Bailey Forman"
+        }
+      ]
+    },
+    {
+      "videoLink": "https://www.youtube.com/watch?v=zKoVcZP4Gsk",
+      "genre": "Contemporary Classical",
+      "title": "Time Pieces",
+      "byline": "by Robert Muczynski",
+      "credits": [
+        {
+          "title": "Piano",
+          "name": "Travis Frank"
+        },
+        {
+          "title": "Clarinet",
+          "name": "Alessandra Hollowell"
+        }
+      ]
+    }
+  ]
+}
