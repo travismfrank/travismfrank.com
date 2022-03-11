@@ -1,0 +1,40 @@
+{
+  "title": "Sketching the Sky",
+  "tunes": [
+    {
+      "title": "Sketching the Sky",
+      "artist": "Allan Nilsson",
+      "asset": "sketching-the-sky"
+    },
+    {
+      "title": "Pumpkin Patch",
+      "artist": "Travis Frank",
+      "asset": "pumpkin-patch"
+    },
+    {
+      "title": "Sillabobble",
+      "artist": "Travis Frank",
+      "asset": "sillabobble"
+    },
+    {
+      "title": "Autumn Winds",
+      "artist": "Allan Nilsson",
+      "asset": "autumn-winds"
+    },
+    {
+      "title": "Peppermint Snowmen",
+      "artist": "Allan Nilsson",
+      "asset": "peppermint-snowmen"
+    },
+    {
+      "title": "Onthou",
+      "artist": "Travis Frank",
+      "asset": "onthou"
+    },
+    {
+      "title": "O, Wind, If Winter Comes (Can Spring Be Far Behind?)",
+      "artist": "Travis Frank",
+      "asset": "o-wind-if-winter-comes"
+    }
+  ]
+}

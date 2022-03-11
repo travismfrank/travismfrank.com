@@ -1,0 +1,15 @@
+{
+  "title": "Acoustic",
+  "tunes": [
+    {
+      "title": "Off the Rails",
+      "artist": "Sam Lynagh",
+      "asset": "off-the-rails"
+    },
+    {
+      "title": "Please Don't Say Hello",
+      "artist": "Sam Lynagh",
+      "asset": "please-dont-say-hello"
+    }
+  ]
+}

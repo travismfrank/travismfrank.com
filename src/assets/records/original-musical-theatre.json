@@ -1,0 +1,29 @@
+{
+  "title": "Original Musical Theatre",
+  "tunes": [
+    {
+      "title": "Rockfall",
+      "musical": "W.A.V.E.",
+      "artist": "Travis Frank and Nora Germani",
+      "asset": "rockfall"
+    },
+    {
+      "title": "Show You to the World",
+      "musical": "2084",
+      "artist": "Travis Frank and Leonoor Rinke de Wit",
+      "asset": "show-you-to-the-world"
+    },
+    {
+      "title": "Given Time",
+      "musical": "The Trouble With Children",
+      "artist": "Travis Frank and Leonoor Rinke de Wit",
+      "asset": "given-time"
+    },
+    {
+      "title": "Come With Me",
+      "musical": "2084",
+      "artist": "Travis Frank and Leonoor Rinke de Wit",
+      "asset": "come-with-me"
+    }
+  ]
+}
