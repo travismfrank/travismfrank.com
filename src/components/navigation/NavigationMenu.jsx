@@ -108,7 +108,7 @@ function NavigationMenu({ open, setOpen }) {
           />
           <NavigationItem
             Icon={GiTheaterCurtains}
-            linkTarget={"/music/musicals"}
+            linkTarget={"/music/records/original-musical-theatre"}
             onClick={linkClickHandler}
             text={"Musicals"}
           />
