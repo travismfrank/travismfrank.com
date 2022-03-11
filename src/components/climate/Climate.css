@@ -1,0 +1,18 @@
+.climate-preamble {
+  margin-top: 0;
+}
+
+.climate-credit {
+  margin-top: 0.75rem;
+}
+
+.climate-credit p {
+  margin: 0;
+}
+
+.school {
+  position: relative;
+  left: 1rem;
+  margin-top: 0.25rem;
+  font-size: 0.65rem;
+}
