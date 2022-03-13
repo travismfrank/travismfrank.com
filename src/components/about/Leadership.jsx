@@ -30,7 +30,7 @@ function Leadership() {
         that truth again and again. Sorrounding myself with dedicated,
         awe-inspiring people makes me feel small in the best way I can imagine.
       </p>
-      <SectionToggle open={false} sectionTitle="Obsidian (2020-2021)">
+      <SectionToggle open={true} sectionTitle="Obsidian (2020-2021)">
         <p>
           I am a founding contributor of <a href="https://github.com/open-source-labs/obsidian" target="_blank">Obsidian</a>,
           Deno's first native GraphQL caching layer. Since building and shipping v1.0
