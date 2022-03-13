@@ -41,6 +41,7 @@ function Reel() {
                 url={reel.videoLink}
                 width="320px"
                 height="160px"
+                controls={true}
               />
             </div>
             {reel.credits.map(role => {

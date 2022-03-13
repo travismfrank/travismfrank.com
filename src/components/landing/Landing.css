@@ -1,6 +1,9 @@
 .landing-container {
-  background-color: #76dae9;
+  background-color: #71DDE9;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Typewriter */
@@ -10,6 +13,7 @@
   font-family: 'Source Code Pro', monospace;
   white-space: pre-wrap;
   padding: 1.5rem;
+  min-height: 16rem;
 }
 
 /* Cursor */
@@ -50,6 +54,4 @@
 
 #landing-headshot {
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
