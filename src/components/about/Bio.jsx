@@ -35,7 +35,7 @@ function Bio() {
         <p>
           Hello! I'm Travis. I build <Link to={"/about/leadership"}>organizations</Link>
           , design <Link to={"/open-source"}>software and systems</Link>, write <Link to={"/music/musicals"}>
-          music</Link> and <Link to={"/writing/feed"}>words</Link>, and conduct <Link to={"/music/reels"}>orchestras</Link>.
+          music</Link> and <Link to={"/writing/feed"}>words</Link>, and conduct <Link to={"/music/reels/conducting"}>orchestras</Link>.
         </p>
         <p>
           My journey is unusual, but each stop always has something to teach me: how to inspire

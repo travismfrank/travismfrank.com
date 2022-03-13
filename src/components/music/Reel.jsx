@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useState } from 'react';
+import ReactPlayer from 'react-player';
+import { useParams } from 'react-router-dom';
 
 import './Reel.css';
 
@@ -35,12 +36,11 @@ function Reel() {
             <h2 className="reel-title">{reel.title}</h2>
             <p className="reel-genre">{reel.genre}</p>
             <div className="reel-video-wrapper">
-              <iframe
+              <ReactPlayer
                 className="reel-video"
-                src={reel.videoLink}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
+                url={reel.videoLink}
+                width="320px"
+                height="160px"
               />
             </div>
             {reel.credits.map(role => {
