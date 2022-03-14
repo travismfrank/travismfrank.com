@@ -56,9 +56,10 @@
   width: 100%;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 640px) {
   .landing-container {
     flex-direction: row-reverse;
+    justify-content: left;
   }
 
   #landing-headshot {
