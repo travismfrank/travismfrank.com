@@ -11,7 +11,7 @@ function ImageLink({ imageSrcmap, imageUrl, link, title }) {
       <img
         src={imageUrl}
         srcSet={generateSrcset(imageSrcmap)}
-        sizes="100vw"
+        sizes="(min-width: 760px) 50vw, 100vw"
       />
       <h3>{title}</h3>
     </div>

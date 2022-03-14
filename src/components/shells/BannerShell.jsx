@@ -15,7 +15,7 @@ function BannerShell({ bannerSrc, children, srcMap, titleText }) {
           <img
             src={bannerSrc}
             srcSet={bannerSrcset}
-            sizes="100vw"
+            sizes="(min-width: 760px) 50vw, 100vw"
             className="banner"
           />
           <div className="banner-shell-content-flex">
