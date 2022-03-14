@@ -63,7 +63,7 @@
   and (orientation: landscape) {
   .landing-container {
     flex-direction: row-reverse;
-    justify-content: left;
+    justify-content: flex-end;
   }
 
   #landing-headshot {
