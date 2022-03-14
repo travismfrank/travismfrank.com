@@ -1,6 +1,7 @@
 .landing-container {
   background-color: #71DDE9;
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,6 +15,7 @@
   white-space: pre-wrap;
   padding: 1.5rem;
   min-height: 16rem;
+  max-width: 30em;
 }
 
 /* Cursor */
@@ -56,7 +58,9 @@
   width: 100%;
 }
 
-@media screen and (min-width: 640px) {
+@media screen
+  and (min-width: 640px)
+  and (orientation: landscape) {
   .landing-container {
     flex-direction: row-reverse;
     justify-content: left;
