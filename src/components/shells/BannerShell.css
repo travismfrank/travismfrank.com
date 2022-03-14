@@ -23,14 +23,15 @@
 }
 
 .banner-shell-content-flex {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .banner-shell-content {
   padding: 0 1rem;
   max-width: 32rem;
+  flex-basis: 90%;
 }
 
 .header {
