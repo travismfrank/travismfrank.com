@@ -11,14 +11,18 @@ function BannerShell({ bannerSrc, children, srcMap, titleText }) {
           <h1 className="shell-title">{titleText}</h1>
         </div>
         <div className="header spacer" />
-        <img
-          src={bannerSrc}
-          srcSet={bannerSrcset}
-          sizes="100vw"
-          className="banner"
-        />
-        <div className="banner-shell-content">
-          {children}
+        <div className="shell-desktop-flex">
+          <img
+            src={bannerSrc}
+            srcSet={bannerSrcset}
+            sizes="100vw"
+            className="banner"
+          />
+          <div className="banner-shell-content-flex">
+            <div className="banner-shell-content">
+              {children}
+            </div>
+            </div>
         </div>
       </div>
     </div>
