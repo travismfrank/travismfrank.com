@@ -51,17 +51,21 @@ function Feed() {
         <h1 className="feed-title">Writing</h1>
       </div>
       <div className="header spacer" />
-      <p className="feed-preamble">
-        I write words, which you can find here. I also write <Link to={"/music/musicals"}>musicals</Link> and <Link to={"music/records/sketching-the-sky"}>jazz</Link>.        
-      </p>
-      {articles && articles.map(post => {
-        return(
-          <div className="post-preview" key={post.id}>
-            <Link to={"/writing/" + post.id}><h3>{post.title}</h3></Link>
-            <p>{post.publishDate}</p>
-          </div>
-        );
-      })}
+      <div className="feed-content-flex">
+        <div className="feed-content-wrapper">
+          <p className="feed-preamble">
+            I write words, which you can find here. I also write <Link to={"/music/musicals"}>musicals</Link> and <Link to={"/music/records/sketching-the-sky"}>jazz</Link>.        
+          </p>
+          {articles && articles.map(post => {
+            return(
+              <div className="post-preview" key={post.id}>
+                <Link to={"/writing/" + post.id}><h3>{post.title}</h3></Link>
+                <p>{post.publishDate}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }

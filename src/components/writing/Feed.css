@@ -9,6 +9,15 @@
   margin-top: 0;
 }
 
+.feed-content-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.feed-content-wrapper {
+  max-width: 32rem;
+}
+
 .post-preview {
   padding: 0 1.5rem;
 }

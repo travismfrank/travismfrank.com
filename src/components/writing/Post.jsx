@@ -41,17 +41,19 @@ function Post() {
         <Link className="post-back" to={"/writing/feed"}>All Posts</Link>
       </div>
       <div className="header spacer" />
-      {post.content && <article className="post">
-        <h1>{post.title}</h1>
-        <p className="date">Published {post.publishDate}{
-          post.publishDate !== post.updateDate ?
-            ", last updated " + post.updateDate :
-            ""
-        }</p>
-        <div className="post-content">
-          <ReactMarkdown>{post.content}</ReactMarkdown>
-        </div>
-      </article>}
+      <div className="post-content-wrapper">
+        {post.content && <article className="post">
+          <h1>{post.title}</h1>
+          <p className="date">Published {post.publishDate}{
+            post.publishDate !== post.updateDate ?
+              ", last updated " + post.updateDate :
+              ""
+          }</p>
+          <div className="post-content">
+            <ReactMarkdown>{post.content}</ReactMarkdown>
+          </div>
+        </article>}
+      </div>
     </div>
   );
 }
