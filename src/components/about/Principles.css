@@ -5,3 +5,12 @@
 .principles-list {
   line-height: 1.5em;
 }
+
+/*@media screen 
+  and (min-width: 980px) {
+  .principles-list li {
+    position: relative;
+    left: 2.5rem;
+    width: 90%;
+  }
+}*/

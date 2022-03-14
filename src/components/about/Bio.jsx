@@ -42,7 +42,7 @@ function Bio() {
           others as a conductor, tell stories as a writer, and manage complexity as an engineer.
         </p>
         <p>
-          Right now, I'm empowering artists and venues to cultivate lifelong fans with a fairer, transparent ticketing platform.
+          Right now, I'm empowering artists to cultivate lifelong fans with a fairer, transparent ticketing platform.
         </p>
         <p>
           <Link to={"/contact"}>Get in touch</Link>. I can't wait to hear from you.

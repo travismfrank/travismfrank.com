@@ -45,8 +45,7 @@ function Leadership() {
           I co-founded <Link to="/music/records/sketching-the-sky">The Frank-Nilsson Contemporary Jazz Orchestra</Link> (CJO)
           with my good friend <a href="https://www.allanknilsson.com/" target="_blank">Allan Nilsson</a>.
           CJO was comprised of eighteen instrumentalists and performed exclusively
-          my and Allan's original works, with the two of us taking the role of
-          bandleader for our own tunes.
+          my and Allan's original works.
         </p>
       </SectionToggle>
       <SectionToggle open={false} sectionTitle="Black Tie Productions (2012-2016)">

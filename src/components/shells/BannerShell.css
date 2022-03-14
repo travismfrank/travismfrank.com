@@ -18,8 +18,19 @@
   margin-bottom: 1.5rem;
 }
 
+.shell-desktop-flex {
+  width: 100%;
+}
+
+.banner-shell-content-flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
 .banner-shell-content {
   padding: 0 1rem;
+  max-width: 32rem;
 }
 
 .header {
@@ -35,4 +46,18 @@
 
 .header.spacer {
   position: static;
+}
+
+@media screen 
+  and (orientation: landscape)
+  and (min-width: 760px) {
+  .shell-desktop-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .banner {
+    height: 100%;
+    margin-bottom: 0;
+  }
 }
