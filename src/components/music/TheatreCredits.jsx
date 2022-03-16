@@ -18,13 +18,13 @@ function TheatreCredits() {
     '.jpg'
   );
 
-  function createTheatreCredit({ producer, role, title, titleExtra }) {
+  function createTheatreCredit({ producer, role, title, titleExtra }, index, array) {
     return (
       <div className="theatre-credit">
         <p><i>{title}</i>{titleExtra ? ` (${titleExtra})` : ''}</p>
         <p className="producer">{producer}</p>
         <p className="role">{role}</p>
-        <hr />
+        {index < array.length - 1 && <hr />}
       </div>
     );
   }
@@ -36,13 +36,13 @@ function TheatreCredits() {
       titleText="Theatre Credits"
     >
       <SectionToggle open={true} sectionTitle="Regional Theatre">
-        {theatreCreditsJSON.regionalTheatre.map(credit => createTheatreCredit(credit))}
+        {theatreCreditsJSON.regionalTheatre.map((credit, index, array) => createTheatreCredit(credit, index, array))}
       </SectionToggle>
       <SectionToggle open={true} sectionTitle="Selected Original Musical Theatre">
-        {theatreCreditsJSON.selectedOriginalMusicalTheatre.map(credit => createTheatreCredit(credit))}
+        {theatreCreditsJSON.selectedOriginalMusicalTheatre.map((credit, index, array) => createTheatreCredit(credit, index, array))}
       </SectionToggle>
       <SectionToggle open={true} sectionTitle="Selected Repertory Theatre">
-        {theatreCreditsJSON.selectedRepertoryTheatre.map(credit => createTheatreCredit(credit))}
+        {theatreCreditsJSON.selectedRepertoryTheatre.map((credit, index, array) => createTheatreCredit(credit, index, array))}
       </SectionToggle>
     </BannerShell>
   );
