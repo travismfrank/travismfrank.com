@@ -94,7 +94,7 @@ function Musical() {
           <img
             src={posterImageUrl}
             srcSet={generateSrcset(posterSrcmap)}
-            sizes="80vw"
+            sizes="32rem"
             className="poster"
           />
         </div>
@@ -109,7 +109,7 @@ function Musical() {
                   key={image.baseAlbumImageUrl}
                   src={image.baseAlbumImageUrl}
                   srcSet={generateSrcset(image.albumImageSrcmap)}
-                  sizes="80vw"
+                  sizes="32rem"
                 />
               </div>
             );

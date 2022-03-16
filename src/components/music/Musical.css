@@ -17,6 +17,10 @@
   margin-top: 1rem;
 }
 
+.poster-container img {
+  width: 100%;
+}
+
 /* Carousel */
 
 .carousel {
