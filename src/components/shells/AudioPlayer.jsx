@@ -85,7 +85,7 @@ class AudioPlayer extends React.Component {
             onChange={this.handleSeekChange}
             onMouseUp={this.handleSeekMouseUp}
           />
-          <p className="tune-time">
+          <div className="tune-time">
             <time dateTime={`P${Math.round(this.state.duration * this.state.played)}S`}>
               {this.timeFormat(this.state.duration * this.state.played)}
             </time>
@@ -93,7 +93,7 @@ class AudioPlayer extends React.Component {
             <time dateTime={`P${Math.round(this.state.duration)}S`}>
               {this.timeFormat(this.state.duration)}
             </time>
-          </p>
+          </div>
         </div>
       </div>
     );
