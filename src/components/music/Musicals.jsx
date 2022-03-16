@@ -32,10 +32,6 @@ function Musicals() {
     {
       "title": "Day One: A Sherlock Story",
       "id": "day-one-a-sherlock-story"
-    },
-    {
-      "title": "Glitter: A Musical Parody",
-      "id": "glitter-a-musical-parody"
     }
   ];
 
