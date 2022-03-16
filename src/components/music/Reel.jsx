@@ -30,7 +30,7 @@ function Reel() {
       srcMap={bannerSrcmap}
       titleText={reelData.title}
     >
-      {reelData.reels.map(reel => {
+      {reelData.reels.map((reel, index) => {
         return (
           <div className="reel-wrapper" key={reel.title}>
             <h2 className="reel-title">{reel.title}</h2>
@@ -49,6 +49,7 @@ function Reel() {
                 <p key={role.title}><b>{role.title}</b> - {role.name}</p>
               );
             })}
+            {index < reelData.reels.length - 1 && <hr />}
           </div>
         );
       })}
