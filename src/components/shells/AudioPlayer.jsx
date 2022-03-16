@@ -89,7 +89,7 @@ class AudioPlayer extends React.Component {
             <time dateTime={`P${Math.round(this.state.duration * this.state.played)}S`}>
               {this.timeFormat(this.state.duration * this.state.played)}
             </time>
-            /
+            <span className="tune-time-divider">/</span>
             <time dateTime={`P${Math.round(this.state.duration)}S`}>
               {this.timeFormat(this.state.duration)}
             </time>
