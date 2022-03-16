@@ -4,7 +4,8 @@
 }
 
 .banner-shell-content-wrapper {
-  overflow: scroll;
+  height: 100%;
+  width: 100%;
 }
 
 .shell-title {

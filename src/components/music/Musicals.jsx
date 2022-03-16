@@ -7,34 +7,34 @@ import generateSrcmap from '../../utils/srcmap';
 // Import images
 import { musicalBanners } from './Musical';
 
-function Musicals() {
-  const musicals = [
-    {
-      "title": "Reprise",
-      "id": "reprise"
-    },
-    {
-      "title": "Super Iron Cooking Chef",
-      "id": "super-iron-cooking-chef"
-    },
-    {
-      "title": "Mirror, Mirror",
-      "id": "mirror-mirror"
-    },
-    {
-      "title": "2084",
-      "id": "2084"
-    },
-    {
-      "title": "Emerald City",
-      "id": "emerald-city"
-    },
-    {
-      "title": "Day One: A Sherlock Story",
-      "id": "day-one-a-sherlock-story"
-    }
-  ];
+const musicals = [
+  {
+    "title": "Reprise",
+    "id": "reprise"
+  },
+  {
+    "title": "Super Iron Cooking Chef",
+    "id": "super-iron-cooking-chef"
+  },
+  {
+    "title": "Mirror, Mirror",
+    "id": "mirror-mirror"
+  },
+  {
+    "title": "2084",
+    "id": "2084"
+  },
+  {
+    "title": "Emerald City",
+    "id": "emerald-city"
+  },
+  {
+    "title": "Day One: A Sherlock Story",
+    "id": "day-one-a-sherlock-story"
+  }
+];
 
+function Musicals() {
   return (
     <div className="musicals-wrapper">
       <div className="header">
