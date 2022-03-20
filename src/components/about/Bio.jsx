@@ -33,7 +33,7 @@ function Bio() {
       </SectionToggle>
       <SectionToggle open={true} sectionTitle="About Me">
         <p>
-          Hello! I'm Travis. I build <Link to={"/about/leadership"}>organizations</Link>
+          Hello! I'm Travis. I found <Link to={"/about/leadership"}>organizations</Link>
           , design <Link to={"/open-source"}>software and systems</Link>, write <Link to={"/music/musicals"}>
           music</Link> and <Link to={"/writing/feed"}>words</Link>, and conduct <Link to={"/music/reels/conducting"}>orchestras</Link>.
         </p>
