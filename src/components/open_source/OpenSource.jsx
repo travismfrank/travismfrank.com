@@ -35,7 +35,7 @@ function OpenSource() {
       <SectionToggle open={true} sectionTitle="travismfrank">
         <p>
           This site is open source! Browse the <a href="https://github.com/TravisFrankMTG/travismfrank" target="_blank">code</a> (I'd
-          love PRs) or read <Link to={"/writing/feed"}>my post</Link> about the build.
+          love PRs) or read <Link to={"/writing/2022-03-24_building-this-site"}>my post</Link> about the build.
         </p>
       </SectionToggle>
     </BannerShell>
