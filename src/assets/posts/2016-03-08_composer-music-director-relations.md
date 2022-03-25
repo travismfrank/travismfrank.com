@@ -30,7 +30,7 @@ As one can see, the list of responsibilities for the music director is seven tim
 
 I assume, however, that the issue outlined above is not the issue many music directors are facing when working with composers on new musicals.  Rather, I believe the far more common problem is a composer attempting to give input in areas of the musical execution of which they have no knowledge.  Orchestration and rehearsal are often the two biggest areas of contention.  This can be understandably frustrating for music directors: “I was hired to teach the score, so let me teach the score.  Don't get in the way during rehearsals.”  I have faced this exact dilemma recently in my work as music director, and it was a challenging situation.  Ultimately, I have found this to be the best solution:
 
-	"Before rehearsals begin, establish an avenue of communication through which all feedback the composer has during rehearsal will go."
+Before rehearsals begin, establish an avenue of communication through which all feedback the composer has during rehearsal will go.
 
 The composer and music director may agree to meet before or after each rehearsal over to coffee to compare notes.  Or the dramaturge or director may field all complaints/feedback/criticisms of the composer and then communicate those to the whole of the creative team.  Whatever the process, they all essentially place a barrier in between the composer and the performers, allowing the directors to do their jobs while still allowing the composer to be involved in rehearsal.
 

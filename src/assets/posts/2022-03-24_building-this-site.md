@@ -4,7 +4,7 @@ update_date: March 24, 2022
 title: "Building This Site"
 author: Travis Frank
 ---
-**Total Project Time:** 70 Hours
+**Total Project Time:** 70 Hours\
 **Project Duration:** February 17, 2022 - March 17, 2022
 
 Every day for a month, I logged off Slack at 5, cooked dinner and spent time with Leonor, then sat back down at my desk to hack away at this site from 8-11.  In [Purpose, 2022](https://www.travismfrank.com/writing/2022-03-19_purpose-2022), I ruminated on my *motivations* for rebuilding, and today I will share my *experience* rebuilding.
@@ -55,7 +55,7 @@ Initially I wanted to store these posts in Cloudflare's distributed [KV store](h
 
 *sigh*.  Lesson learned.
 
-Aside: serving the posts, images, and audio with a CDN (like [Cloudflare Images](https://www.cloudflare.com/products/cloudflare-images/)) is far more scalable and user-friendly than bundling assets with Vite, but I'm cheap and since my price for this site is currently $0, I'm going to keep bundling them until I find a compelling reason to switch.
+**Aside:** serving the posts, images, and audio with a CDN (like [Cloudflare Images](https://www.cloudflare.com/products/cloudflare-images/)) is far more scalable and user-friendly than bundling assets with Vite, but I'm cheap and since my price for this site is currently $0, I'm going to keep bundling them until I find a compelling reason to switch.
 
 ### Contact forms, SMTP, and you
 The [Contact](https://www.travismfrank.com/contact) page was one of the final pieces I built.  It took all of a single search to learn there was no way to send email without an SMTP server, and while Cloudflare Workers are great, I can't make an SMTP server out of one.
