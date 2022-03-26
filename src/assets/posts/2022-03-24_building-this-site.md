@@ -7,7 +7,7 @@ author: Travis Frank
 **Total Project Time:** 70 Hours\
 **Project Duration:** February 17, 2022 - March 17, 2022
 
-Every day for a month, I logged off Slack at 5, cooked dinner and spent time with Leonor, then sat back down at my desk to hack away at this site from 8-11.  In [Purpose, 2022](https://www.travismfrank.com/writing/2022-03-19_purpose-2022), I ruminated on my *motivations* for rebuilding, and today I will share my *experience* rebuilding.
+Every day for a month, I logged off Slack at 5, cooked dinner and spent time with Leonoor, then sat back down at my desk to hack away at this site from 8-11.  In [Purpose, 2022](https://www.travismfrank.com/writing/2022-03-19_purpose-2022), I ruminated on my *motivations* for rebuilding, and today I will share my *experience* rebuilding.
 
 ## Backend dev tries frontend dev
 My tool choices were motivated primarily by development speed and transparency.  I'm eager to move on to developing products in my free time, meaning speed was a reasonable concern for me.  I want to rely on very few tools to keep this site up, to keep bloat and lock-in low.  Simple, transparent tools were a must.
