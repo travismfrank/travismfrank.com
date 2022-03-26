@@ -10,8 +10,9 @@
   border: 0;
   background: transparent;
   box-sizing: border-box;
-  width: 0;
-  height: 1.2em;
+  width: 1.2em;
+  height: 1.4em;
+  padding: 0;
 
   border-color: transparent transparent transparent #ccc;
   transition: 100ms all ease;
@@ -19,7 +20,7 @@
 
   // play state
   border-style: solid;
-  border-width: 0.6em 0 0.6em 1.2em;
+  border-width: 0.7em 0 0.7em 1.2em;
 
   &.paused {
     border-style: double;
@@ -35,7 +36,7 @@
 
 $track-w: 100%;
 $track-h: .25em;
-$thumb-d: 1.5em;
+$thumb-d: 0em;
 $track-c: #ccc;
 $filll-c: #a9a9a9;
 
@@ -48,10 +49,8 @@ $filll-c: #a9a9a9;
   background: $track-c;
 
   @if $fill == 1 {
-    .js & {
-      background: linear-gradient($filll-c, $filll-c)
-      0/ var(--sx) 100% no-repeat $track-c;
-    }
+    background: linear-gradient($filll-c, $filll-c)
+    0 / var(--sx) 100% no-repeat $track-c;
   }
 }
 
@@ -71,21 +70,18 @@ $filll-c: #a9a9a9;
   &, &::-webkit-slider-thumb {
     -webkit-appearance: none;
   }
-
   --range: calc(var(--max) - var(--min));
-  --ratio: calc((var(--val) - var(--min))/var(--range));
-  --sx: calc(.5*#{$thumb-d} + var(--ratio)*(100% - #{$thumb-d}));
+  --ratio: calc((var(--val) - var(--min)) / var(--range));
+  --sx: calc(.5 * #{$thumb-d} + var(--ratio) * (100% - #{$thumb-d}));
   margin: 0;
   padding: 0;
   width: $track-w;
   max-width: 100%;
   height: $thumb-d;
   background: transparent;
-  font: 1em/1 arial, sans-serif;
+  font: 1em / 1 arial, sans-serif;
 
-  &::-webkit-slider-runnable-track {
-    @include track(1)
-  }
+  &::-webkit-slider-runnable-track { @include track(1) }
   &::-moz-range-track { @include track }
   &::-ms-track { @include track }
 
@@ -93,7 +89,7 @@ $filll-c: #a9a9a9;
   &::-ms-fill-lower { @include fill }
 
   &::-webkit-slider-thumb {
-    margin-top: .5*($track-h - $thumb-d);
+    margin-top: .5 * ($track-h - $thumb-d);
     @include thumb
   }
   &::-moz-range-thumb { @include thumb }

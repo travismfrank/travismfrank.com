@@ -84,6 +84,7 @@ class AudioPlayer extends React.Component {
             onMouseDown={this.handleSeekMouseDown}
             onChange={this.handleSeekChange}
             onMouseUp={this.handleSeekMouseUp}
+            style={{'--min': 0, '--max': 0.999999, '--val': this.state.played}}
           />
           <div className="tune-time">
             <time dateTime={`P${Math.round(this.state.duration * this.state.played)}S`}>
