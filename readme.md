@@ -1,5 +1,5 @@
 # travismfrank
-Static site travismfrank.com, hosted on [Cloudflare Pages](https://developers.cloudflare.com/pages/).
+Static site travismfrank.com, hosted on [Cloudflare Pages](https://developers.cloudflare.com/pages/), with contact form backend.
 
 ## Startup
 Install dependencies
