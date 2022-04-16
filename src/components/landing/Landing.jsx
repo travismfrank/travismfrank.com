@@ -22,8 +22,8 @@ function Landing() {
   // % = Stop backspacing here
   // * = Start backspacing here
   // # = Wait here
-  const text = "Hi! I'm Travis.#||I write software,# %solve problems*%build" +
-               " solutions*design systems,# and conduct orchestras.";
+  const text = "Hi! I'm Travis.#||I found organizations,# %solve problems*%write" +
+               " software*design systems,# and conduct orchestras.";
 
   async function typewriter() {
     const sleep = delay => new Promise((resolve) => setTimeout(resolve, delay));
