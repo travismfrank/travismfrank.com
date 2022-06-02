@@ -25,9 +25,9 @@ function Bio() {
       titleText="Biography"
     >
       <SectionToggle open={false} sectionTitle="Fast Facts">
-        <p><b>Current Residence:</b> New York, NY, USA</p>
+        <p><b>Current Residence:</b> Den Haag, NL</p>
         <p><b>Origin:</b> Seattle, WA, USA</p>
-        <p><b>Current Gig:</b> Software Engineer, <a href="https://www.placeexchange.com/">Place Exchange</a></p>
+        <p><b>Current Gig:</b> Founder, <a href="https://ticketbridge.io/">Ticket Bridge</a></p>
         <p><b>Interests:</b> Sushi, Tabletop Games, Neckties, Science Fiction, <i>Magic: The Gathering</i></p>
         <p><b>School:</b> Berklee College of Music, Boston, MA, USA</p>
       </SectionToggle>
