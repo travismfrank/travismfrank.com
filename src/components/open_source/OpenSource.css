@@ -1,0 +1,10 @@
+.divider {
+	height: 2px;
+	width: auto;
+	margin: 25px 10%;
+	background-color: grey;
+}
+
+#sponsorButton {
+	margin-top: 15px;
+}
