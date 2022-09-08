@@ -11,7 +11,7 @@ yarn install
 Run dev server (static assets only)
 
 ```zsh
-npm run dev
+yarn dev
 ```
 
 Dev server at localhost:3000
@@ -20,7 +20,7 @@ Build and preview
 
 ```zsh
 export SENDGRID_API_KEY=<API_KEY>
-npm run build && npm run preview
+yarn build && yarn preview
 ```
 
 Preview server at localhost:8788
