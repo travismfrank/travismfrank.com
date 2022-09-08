@@ -26,7 +26,7 @@ function Principles() {
         Ray Dalio's <a href="https://www.indiebound.org/book/9781501124020"><i>Principles</i></a>
         , I publicly collect my principles here.
       </p>
-      <p><b>Last Updated:</b> February 24, 2022</p>
+      <p><b>Last Updated:</b> September 8, 2022</p>
       <ul className="principles-list">
         <li>Give gratitude</li>
         <li>Embrace change</li>
@@ -35,6 +35,7 @@ function Principles() {
         <li>Practice awe</li>
         <li>Shape reality</li>
         <li>Stand out</li>
+        <li>Be honest</li>
       </ul>
     </BannerShell>
   );
