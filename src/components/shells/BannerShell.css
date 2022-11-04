@@ -62,5 +62,7 @@
     height: 100%;
     width: 50vw;
     margin-bottom: 0;
+    position: sticky;
+    top: 5rem;
   }
 }
