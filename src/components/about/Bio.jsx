@@ -42,9 +42,14 @@ function Bio() {
           others as a conductor, tell stories as a writer, and manage complexity as an engineer.
         </p>
         <p>
-          Right now, I'm building <a href="https://ticketbridge.io">Ticket Bridge</a>, a ticketing platform
-          for venues to take back control of their online ticket sales. Ticket Bridge eliminates ticket
-          scalping, enables sophisticated instant royalty splits, and levels up fan experiences.
+          Right now, I'm exploring opportunities to help stage managers save time with software. If you're
+          a stage manager, <Link to={"/contact"}>reach out</Link>! As the backbone of every production, you deserve
+          less paperwork and more time to do what you love. Let's work together to make your life easier.
+        </p>
+        <p>
+          I'm also building <a href="https://ticketbridge.io">Ticket Bridge</a>, a ticketing platform
+          for promoters to take back control of their online ticket sales. Ticket Bridge eliminates ticket
+          scalping, delights fans, and makes it easier than ever to promote your event.
         </p>
         <p>
           <Link to={"/contact"}>Get in touch</Link>. I can't wait to hear from you.
