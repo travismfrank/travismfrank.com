@@ -1,0 +1,250 @@
+{
+  "title": "Breakout Chronicles",
+  "tunes": [
+    {
+      "title": "Time Will Tell - April 1, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "time-will-tell"
+    },
+    {
+      "title": "Island Time - April 10, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "island-time"
+    },
+    {
+      "title": "The Tale of Idun, Goddess of Spring - April 17, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "the-tale-of-idun"
+    },
+    {
+      "title": "Finer Than Vintage - April 24, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "finer-than-vintage"
+    },
+    {
+      "title": "Queen C - May 1, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "queen-c"
+    },
+    {
+      "title": "Better Ignored - May 8, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "better-ignored"
+    },
+    {
+      "title": "So Long - May 15, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "so-long"
+    },
+    {
+      "title": "Where I'd Rather Be - May 22, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "where-id-rather-be"
+    },
+    {
+      "title": "Never Retire - May 29, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "never-retire"
+    },
+    {
+      "title": "The Wheel Keeps Spinning - June 5, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "the-wheel-keeps-spinning"
+    },
+    {
+      "title": "The Dragonfly Song - June 12, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "the-dragonfly-song"
+    },
+    {
+      "title": "Charlotte & Roger - June 19, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "charlotte-and-roger"
+    },
+    {
+      "title": "Rain Clouds - June 26, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "rain-clouds"
+    },
+    {
+      "title": "Pick It Up Again - July 3, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "pick-it-up-again"
+    },
+    {
+      "title": "Find Your Voice - July 10, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "find-your-voice"
+    },
+    {
+      "title": "This Party Never Ends - July 17, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "this-party-never-ends"
+    },
+    {
+      "title": "The Open Road (Is My Home) - July 24, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "the-open-road"
+    },
+    {
+      "title": "Where Are The Angels? - July 31, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "where-are-the-angels"
+    },
+    {
+      "title": "Why I Care - August 7, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "why-i-care"
+    },
+    {
+      "title": "Papieren Vliegtuigje - August 14, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "papieren-vliegtuigje"
+    },
+    {
+      "title": "World In Your Pocket - August 21, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "world-in-your-pocket"
+    },
+    {
+      "title": "Marysville - August 28, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "marysville"
+    },
+    {
+      "title": "Mutiny of a Virion - September 11, 2020",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "mutiny-of-a-virion"
+    },
+    {
+      "title": "Dogs Are Better Than Cats - September 18, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "dogs-are-better-than-cats"
+    },
+    {
+      "title": "One of the Guys - September 25, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, Floris Rinke de Wit, and Leonoor Rinke de Wit",
+      "asset": "one-of-the-guys"
+    },
+    {
+      "title": "Contemplative Hours - October 2, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "contemplative-hours"
+    },
+    {
+      "title": "On Your Way - October 9, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "on-your-way"
+    },
+    {
+      "title": "Take A Walk - October 23, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "take-a-walk"
+    },
+    {
+      "title": "May The Best Algorithm Win - October 30, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "may-the-best-algorithm-win"
+    },
+    {
+      "title": "Aphrodite - November 6, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "aphrodite"
+    },
+    {
+      "title": "Golden Green Eyes - November 13, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "golden-green-eyes"
+    },
+    {
+      "title": "Images of Fall - November 20, 2020",
+      "artist": "Travis Frank, Allan Nilsson, and Zachary Pennington",
+      "asset": "images-of-fall"
+    },
+    {
+      "title": "Stardust - November 27, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "stardust"
+    },
+    {
+      "title": "Rudolph the Red-Nosed Reindeer - December 4, 2020",
+      "artist": "Travis Frank and Leonoor Rinke de Wit",
+      "asset": "rudolph-the-red-nosed-reindeer"
+    },
+    {
+      "title": "Rocky in the Rockefeller Tree - December 11, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "rocky-in-the-rockefeller-tree"
+    },
+    {
+      "title": "Fly My Kite - December 18, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "fly-my-kite"
+    },
+    {
+      "title": "Jingle Bells - December 25, 2020",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "jingle-bells"
+    },
+    {
+      "title": "Girl with a Pearl Earring - January 15, 2021",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "girl-with-a-pearl-earring"
+    },
+    {
+      "title": "Warm Sunglow - January 22, 2021",
+      "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "warm-sunglow"
+    },
+    {
+      "title": "Prologue: Warrior - February 12, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "prologue-warrior"
+    },
+    {
+      "title": "Water Will Be Fine - February 19, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "water-will-be-fine"
+    },
+    {
+      "title": "Someone Find the Grown-Ups - February 26, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "someone-find-the-grown-ups"
+    },
+    {
+      "title": "When She Played The Piano - March 5, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "when-she-played-the-piano"
+    },
+    {
+      "title": "You've Got Mail - March 12, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "youve-got-mail"
+    },
+    {
+      "title": "Never Have I Ever - March 19, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "never-have-i-ever"
+    },
+    {
+      "title": "het liedje van Jacques Brel - March 26, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "het-liedje-van-jacques-brel"
+    },
+    {
+      "title": "Send Me a Picture of Our Little Girl - April 2, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "send-me-a-picture-of-our-little-girl"
+    },
+    {
+      "title": "Coming With You - April 9, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "coming-with-you"
+    },
+    {
+      "title": "Epilogue: Warrior - April 16, 2021",
+      "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
+      "asset": "epilogue-warrior"
+    }
+  ]
+}
