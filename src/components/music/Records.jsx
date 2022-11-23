@@ -14,6 +14,10 @@ function Records() {
       "id": "sketching-the-sky"
     },
     {
+      "title": "Breakout Chronicles",
+      "id": "breakout-chronicles"
+    },
+    {
       "title": "Acoustic",
       "id": "acoustic"
     },
