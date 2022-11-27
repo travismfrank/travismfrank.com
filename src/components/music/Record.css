@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+.tune-date {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
 .tune-artist {
   position: relative;
   left: 1rem;

@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import ReactPlayer from 'react-player';
 import { useParams } from 'react-router-dom';
 
 import './Record.css';
@@ -38,6 +36,7 @@ function Record() {
         return (
           <div className="tune-wrapper" key={tune.title}>
             <h2 className="tune-title">{tune.title}</h2>
+            {tune.date && <p className="tune-date">{tune.date}</p>}
             <p className="tune-artist">{tune.artist}</p>
             <AudioPlayer src={recordAudio['./../../assets/audio/' + tune.asset + '.mp3'].default}/>
           </div>
