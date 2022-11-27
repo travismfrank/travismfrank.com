@@ -5,294 +5,343 @@
       "title": "Time Will Tell",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "April 1, 2020",
+      "genre": "Musical Theatre",
       "asset": "time-will-tell"
     },
     {
       "title": "Island Time",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "April 10, 2020",
+      "genre": "Pop",
       "asset": "island-time"
     },
     {
       "title": "The Tale of Idun, Goddess of Spring",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "April 17, 2020",
+      "genre": "Folk",
       "asset": "the-tale-of-idun"
     },
     {
       "title": "Finer Than Vintage",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "April 24, 2020",
+      "genre": "Jazz",
       "asset": "finer-than-vintage"
     },
     {
       "title": "Queen C",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "May 1, 2020",
+      "genre": "Jazz",
       "asset": "queen-c"
     },
     {
       "title": "Better Ignored",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "May 8, 2020",
+      "genre": "Jazz",
       "asset": "better-ignored"
     },
     {
       "title": "So Long",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "May 15, 2020",
+      "genre": "Musical Theatre",
       "asset": "so-long"
     },
     {
       "title": "Where I'd Rather Be",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "May 22, 2020",
+      "genre": "Folk",
       "asset": "where-id-rather-be"
     },
     {
       "title": "Never Retire",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "May 29, 2020",
+      "genre": "Jazz",
       "asset": "never-retire"
     },
     {
       "title": "The Wheel Keeps Spinning",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "June 5, 2020",
+      "genre": "Indie",
       "asset": "the-wheel-keeps-spinning"
     },
     {
       "title": "The Dragonfly Song",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "June 12, 2020",
+      "genre": "Folk",
       "asset": "the-dragonfly-song"
     },
     {
       "title": "Charlotte & Roger",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "June 19, 2020",
+      "genre": "Jazz",
       "asset": "charlotte-and-roger"
     },
     {
       "title": "Rain Clouds",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "June 26, 2020",
+      "genre": "Indie",
       "asset": "rain-clouds"
     },
     {
       "title": "Pick It Up Again",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "July 3, 2020",
+      "genre": "Jazz",
       "asset": "pick-it-up-again"
     },
     {
       "title": "Find Your Voice",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "July 10, 2020",
+      "genre": "Pop",
       "asset": "find-your-voice"
     },
     {
       "title": "This Party Never Ends",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "July 17, 2020",
+      "genre": "Rock",
       "asset": "this-party-never-ends"
     },
     {
       "title": "The Open Road (Is My Home)",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "July 24, 2020",
+      "genre": "Rock",
       "asset": "the-open-road"
     },
     {
       "title": "Where Are The Angels?",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "July 31, 2020",
+      "genre": "Pop",
       "asset": "where-are-the-angels"
     },
     {
       "title": "Why I Care",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "August 7, 2020",
+      "genre": "Jazz",
       "asset": "why-i-care"
     },
     {
       "title": "Papieren Vliegtuigje",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "August 14, 2020",
+      "genre": "Folk",
       "asset": "papieren-vliegtuigje"
     },
     {
       "title": "World In Your Pocket",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "August 21, 2020",
+      "genre": "Rock",
       "asset": "world-in-your-pocket"
     },
     {
       "title": "Marysville",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "August 28, 2020",
+      "genre": "Musical Theatre",
       "asset": "marysville"
     },
     {
       "title": "Mutiny of a Virion",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "September 11, 2020",
+      "genre": "Musical Theatre",
       "asset": "mutiny-of-a-virion"
     },
     {
       "title": "Dogs Are Better Than Cats",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "September 18, 2020",
+      "genre": "Folk",
       "asset": "dogs-are-better-than-cats"
     },
     {
       "title": "One of the Guys",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, Floris Rinke de Wit, and Leonoor Rinke de Wit",
       "date": "September 25, 2020",
+      "genre": "Pop",
       "asset": "one-of-the-guys"
     },
     {
       "title": "Contemplative Hours",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "October 2, 2020",
+      "genre": "Jazz",
       "asset": "contemplative-hours"
     },
     {
       "title": "On Your Way",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "October 9, 2020",
+      "genre": "Rock",
       "asset": "on-your-way"
     },
     {
       "title": "Take A Walk",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "October 23, 2020",
+      "genre": "Rock",
       "asset": "take-a-walk"
     },
     {
       "title": "May The Best Algorithm Win",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "October 30, 2020",
+      "genre": "Musical Theatre",
       "asset": "may-the-best-algorithm-win"
     },
     {
       "title": "Aphrodite",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "November 6, 2020",
+      "genre": "Folk",
       "asset": "aphrodite"
     },
     {
       "title": "Golden Green Eyes",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "November 13, 2020",
+      "genre": "Folk",
       "asset": "golden-green-eyes"
     },
     {
       "title": "Images of Fall",
       "artist": "Travis Frank, Allan Nilsson, and Zachary Pennington",
       "date": "November 20, 2020",
+      "genre": "Jazz",
       "asset": "images-of-fall"
     },
     {
       "title": "Stardust",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "November 27, 2020",
+      "genre": "Jazz",
       "asset": "stardust"
     },
     {
       "title": "Rudolph the Red-Nosed Reindeer",
       "artist": "Travis Frank and Leonoor Rinke de Wit",
       "date": "December 4, 2020",
+      "genre": "Jazz",
       "asset": "rudolph-the-red-nosed-reindeer"
     },
     {
       "title": "Rocky in the Rockefeller Tree",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "December 11, 2020",
+      "genre": "Jazz",
       "asset": "rocky-in-the-rockefeller-tree"
     },
     {
       "title": "Fly My Kite",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "December 18, 2020",
+      "genre": "Jazz",
       "asset": "fly-my-kite"
     },
     {
       "title": "Jingle Bells",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "December 25, 2020",
+      "genre": "Jazz",
       "asset": "jingle-bells"
     },
     {
       "title": "Girl with a Pearl Earring",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "January 15, 2021",
+      "genre": "Indie",
       "asset": "girl-with-a-pearl-earring"
     },
     {
       "title": "Warm Sunglow",
       "artist": "Travis Frank, Allan Nilsson, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "January 22, 2021",
+      "genre": "Jazz",
       "asset": "warm-sunglow"
     },
     {
       "title": "Prologue: Warrior",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "February 12, 2021",
+      "genre": "Musical Theatre",
       "asset": "prologue-warrior"
     },
     {
       "title": "Water Will Be Fine",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "February 19, 2021",
+      "genre": "Musical Theatre",
       "asset": "water-will-be-fine"
     },
     {
       "title": "Someone Find the Grown-Ups",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "February 26, 2021",
+      "genre": "Pop",
       "asset": "someone-find-the-grown-ups"
     },
     {
       "title": "When She Played The Piano",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "March 5, 2021",
+      "genre": "Musical Theatre",
       "asset": "when-she-played-the-piano"
     },
     {
       "title": "You've Got Mail",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "March 12, 2021",
+      "genre": "Indie",
       "asset": "youve-got-mail"
     },
     {
       "title": "Never Have I Ever",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "March 19, 2021",
+      "genre": "Indie",
       "asset": "never-have-i-ever"
     },
     {
       "title": "het liedje van Jacques Brel",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "March 26, 2021",
+      "genre": "Folk",
       "asset": "het-liedje-van-jacques-brel"
     },
     {
       "title": "Send Me a Picture of Our Little Girl",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "April 2, 2021",
+      "genre": "Jazz",
       "asset": "send-me-a-picture-of-our-little-girl"
     },
     {
       "title": "Coming With You",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "April 9, 2021",
+      "genre": "Pop",
       "asset": "coming-with-you"
     },
     {
       "title": "Epilogue: Warrior",
       "artist": "Travis Frank, Zachary Pennington, and Leonoor Rinke de Wit",
       "date": "APril 16, 2021",
+      "genre": "Musical Theatre",
       "asset": "epilogue-warrior"
     }
   ]
