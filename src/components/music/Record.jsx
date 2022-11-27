@@ -14,6 +14,7 @@ const recordAudio = import.meta.globEager('./../../assets/audio/*.mp3');
 
 import AudioPlayer from '../shells/AudioPlayer';
 import BannerShell from '../shells/BannerShell';
+import SectionToggle from '../shells/SectionToggle';
 import generateSrcmap from '../../utils/srcmap';
 
 // Travis's favorite BC tunes
@@ -45,7 +46,7 @@ function Record() {
 
   const tuneComponents = recordData.tunes.map(tune => {
     return (
-      <div className="tune-wrapper" key={tune.title} date={tune.date} genre={tune.genre}>
+      <div className="tune-wrapper" key={tune.title} title={tune.title} date={tune.date} genre={tune.genre}>
         <h2 className="tune-title">{tune.title}</h2>
         {tune.date && <p className="tune-date">{tune.date}</p>}
         <p className="tune-artist">{tune.artist}</p>
@@ -56,7 +57,7 @@ function Record() {
 
   // BC has tunes sorted by genre & Travis's favorites
   const tuneGenreMap = {};
-  const tuneFavoritesMap = { favorites: [], other: [] };
+  const tuneFavoritesMap = { favorites: [], others: [] };
 
   if (recordName === 'breakout-chronicles') {
     tuneComponents.forEach(tuneComponent => {
@@ -67,11 +68,11 @@ function Record() {
         tuneGenreMap[tuneComponent.props.genre] = [tuneComponent];
       }
 
-      // Sort into favorite / other
-      if (TRAVISS_FAVORITES.includes(tuneComponent.props.key)) {
+      // Sort into favorite / others
+      if (TRAVISS_FAVORITES.includes(tuneComponent.props.title)) {
         tuneFavoritesMap.favorites.push(tuneComponent);
       } else {
-        tuneFavoritesMap.other.push(tuneComponent);
+        tuneFavoritesMap.others.push(tuneComponent);
       }
     });
   }
@@ -94,9 +95,28 @@ function Record() {
               </select>
             </p>
           </div>
+          {sortBy === 'favorites' && (
+            <>
+              <SectionToggle open={true} sectionTitle={"Travis's Favorites"}>
+                {tuneFavoritesMap.favorites}
+              </SectionToggle>
+              <SectionToggle open={true} sectionTitle={"Others"}>
+                {tuneFavoritesMap.others}
+              </SectionToggle>
+            </>
+          )}
+          {sortBy === 'date' && tuneComponents}
+          {sortBy === 'genre' && (
+            <>
+              {Object.keys(tuneGenreMap).map(genre => (
+                <SectionToggle open={false} sectionTitle={genre}>
+                  {tuneGenreMap[genre]}
+                </SectionToggle>
+              ))}
+            </>
+          )}
         </>
       ) : tuneComponents}
-      {tuneComponents}
     </BannerShell>
   );
 }
