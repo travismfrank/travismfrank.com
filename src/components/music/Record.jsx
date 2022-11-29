@@ -26,6 +26,7 @@ const TRAVISS_FAVORITES = [
   'Take A Walk',
   'Aphrodite',
   'Girl with a Pearl Earring',
+  'Warm Sunglow',
   'When She Played The Piano',
   'Epilogue: Warrior'
 ];
