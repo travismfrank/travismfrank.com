@@ -47,12 +47,7 @@ function Bio() {
           less paperwork and more time to do what you love. Let's work together to make your life easier.
         </p>
         <p>
-          I'm also building <a href="https://ticketbridge.io">Ticket Bridge</a>, a ticketing platform
-          for promoters to take back control of their online ticket sales. Ticket Bridge eliminates ticket
-          scalping, delights fans, and makes it easier than ever to promote your event.
-        </p>
-        <p>
-          <Link to={"/contact"}>Get in touch</Link>. I can't wait to hear from you.
+          Feel free to <Link to={"/contact"}>get in touch</Link>. I can't wait to hear from you.
         </p>
       </SectionToggle>
     </BannerShell>
