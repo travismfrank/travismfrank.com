@@ -27,7 +27,7 @@ function Bio() {
       <SectionToggle open={false} sectionTitle="Fast Facts">
         <p><b>Current Residence:</b> Den Haag, NL</p>
         <p><b>Origin:</b> Seattle, WA, USA</p>
-        <p><b>Current Gig:</b> Founder, <a href="https://ticketbridge.io/">Ticket Bridge</a></p>
+        <p><b>Current Gig:</b> Founder, Frank Industries</p>
         <p><b>Interests:</b> Sushi, Tabletop Games, Neckties, Science Fiction, <i>Magic: The Gathering</i></p>
         <p><b>School:</b> Berklee College of Music, Boston, MA, USA</p>
       </SectionToggle>
