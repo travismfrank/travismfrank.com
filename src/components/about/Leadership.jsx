@@ -44,8 +44,7 @@ function Leadership() {
         <p>
           I co-founded <Link to="/music/records/sketching-the-sky">The Frank-Nilsson Contemporary Jazz Orchestra</Link> (CJO)
           with my good friend <a href="https://www.allanknilsson.com/" target="_blank">Allan Nilsson</a>.
-          CJO was comprised of eighteen instrumentalists and performed exclusively
-          my and Allan's original works.
+          CJO was comprised of 18 instrumentalists and performed exclusively my and Allan's original works.
         </p>
       </SectionToggle>
       <SectionToggle open={false} sectionTitle="Black Tie Productions (2012-2016)">
@@ -53,9 +52,8 @@ function Leadership() {
           I founded <Link to="/music/musicals">Black Tie Productions</Link>, a youth theatre
           company that produced original musicals written, directed, and performed entirely
           by high school students. I led the company as Executive Producer and Artistic Director
-          for three years, across five original musicals, eight productions, and thousands of
-          ticket sales. After stepping down, I continued to advise another year of productions
-          and organize fundraising.
+          for 3 years, across 5 original musicals, 8 productions, and 3.5k+ ticket sales.
+          After stepping down, I continued to advise another year of productions and organize fundraising.
         </p>
       </SectionToggle>
       <p>
