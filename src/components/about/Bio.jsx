@@ -42,9 +42,10 @@ function Bio() {
           others as a conductor, tell stories as a writer, and manage complexity as an engineer.
         </p>
         <p>
-          Right now, I'm exploring opportunities to help stage managers save time with software. If you're
-          a stage manager, <Link to={"/contact"}>reach out</Link>! As the backbone of every production, you deserve
-          less paperwork and more time to do what you love. Let's work together to make your life easier.
+          Right now, I'm exploring opportunities to help theatrical production managers & stage managers save time
+          with software. If you're a PM or SM, <a href={"https://savvycal.com/travisfrank/lets-chat"} target="blank">let's chat</a>!
+          As the backbone of every production, you deserve less paperwork and more time to do what you love.
+          Let's work together to make your life easier.
         </p>
         <p>
           Feel free to <Link to={"/contact"}>get in touch</Link>. I can't wait to hear from you.
