@@ -29,7 +29,7 @@ function Bio() {
       <SectionToggle open={false} sectionTitle="Fast Facts">
         <p><b>Current Residence:</b> Den Haag, NL</p>
         <p><b>Origin:</b> Seattle, WA, USA</p>
-        <p><b>Current Gig:</b> Founder, Frank Industries</p>
+        <p><b>Current Gig:</b> Co-Founder, <a href="https://prosperoapp.com" target="blank">Prospero Labs</a></p>
         <p><b>Interests:</b> Sushi, Tabletop Games, Neckties, Science Fiction, <i>Magic: The Gathering</i></p>
         <p><b>School:</b> Berklee College of Music, Boston, MA, USA</p>
       </SectionToggle>
@@ -44,10 +44,9 @@ function Bio() {
           others as a conductor, tell stories as a writer, and manage complexity as an engineer.
         </p>
         <p>
-          Right now, I'm exploring opportunities to help theatrical production managers & stage managers save time
-          with software. If you're a PM or SM, <a href={"https://savvycal.com/travisfrank/lets-chat"} target="blank">let's chat</a>!
-          As the backbone of every production, you deserve less paperwork and more time to do what you love.
-          Let's work together to make your life easier.
+          Right now, I'm building <a href="https://prosperoapp.com" target="blank">Prospero</a>: scheduling
+          software for theatrical production teams. After my years behind the piano, I'm proud to create
+          tools that help the community I come from.
         </p>
         <p>
           Feel free to <Link to={"/contact"}>get in touch</Link>. I can't wait to hear from you.
