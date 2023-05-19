@@ -37,14 +37,14 @@ function OpenSource() {
         <p>
           I am a founding contributor of <a href="https://github.com/open-source-labs/obsidian" target="_blank">Obsidian</a>,
           Deno's first native GraphQL caching layer. I now serve the Obsidian community in an advisory role, mentoring active
-          contibutors. Check out my v1.0 <a href="https://medium.com/p/6f97a31f4af3" target="_blank">announcement post (2020)</a> or read
-          the <a href="http://obsidian.land" target="_blank">docs</a>.
+          contibutors. Check out my v1.0 <a href="https://medium.com/p/6f97a31f4af3" target="_blank">announcement post (2020)</a> or
+          browse the <a href="https://github.com/open-source-labs/obsidian" target="_blank">source code</a>.
         </p>
       </SectionToggle>
       <SectionToggle open={true} sectionTitle="travismfrank">
         <p>
-          This site is open source! Browse the <a href="https://github.com/TravisFrankMTG/travismfrank" target="_blank">code</a> (I'd
-          love PRs) or read <Link to={"/writing/2022-03-24_building-this-site"}>my post</Link> about the build.
+          This site is open source! Read <Link to={"/writing/2022-03-24_building-this-site"}>my post</Link> about the build or
+          browse the <a href="https://github.com/TravisFrankMTG/travismfrank" target="_blank">source code</a>.
         </p>
       </SectionToggle>
       <div className="divider" />
