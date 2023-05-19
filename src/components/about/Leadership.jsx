@@ -28,11 +28,18 @@ function Leadership() {
     >
       <p className="leadership-preamble">
         In <i>Emerald City</i>, I wrote: "The greatest moments of all / are those
-        that makes us feel small". Every company and orchestra I found reveals
+        that makes us feel small". Every organization I found reveals
         that truth again and again. Sorrounding myself with dedicated,
         awe-inspiring people makes me feel small in the best way I can imagine.
       </p>
-      <SectionToggle open={true} sectionTitle="Obsidian (2020-2021)">
+      <SectionToggle open={true} sectionTitle="Prospero Labs (2023-present)">
+        <p>
+          I co-founded <a href="https://prosperoapp.com" target="_blank">Prospero Labs</a> with my friend
+          and former Obsidian colleague Matt Meigs. We develop scheduling software for theatrical production
+          teams.
+        </p>
+      </SectionToggle>
+      <SectionToggle open={false} sectionTitle="Obsidian (2020-2021)">
         <p>
           I am a founding contributor of <a href="https://github.com/open-source-labs/obsidian" target="_blank">Obsidian</a>,
           Deno's first native GraphQL caching layer. Since building and shipping v1.0
