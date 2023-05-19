@@ -5,7 +5,9 @@ import ImageLink from '../shells/ImageLink';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-export const reelImages = import.meta.globEager('./../../assets/images/reels/*');
+export const reelImages = import.meta.glob('../../assets/images/reels/*', {
+  eager: true,
+});
 
 function Reels() {
   const reels = [
@@ -27,10 +29,10 @@ function Reels() {
       <div className="header spacer" />
       <div className="reel-selection-wrapper">
         {reels.map(reel => {
-          const reelImageUrl = reelImages['./../../assets/images/reels/' + reel.id + '.jpg'].default;
+          const reelImageUrl = reelImages['../../assets/images/reels/' + reel.id + '.jpg'].default;
           const reelSrcmap = generateSrcmap(
             reelImages,
-            './../../assets/images/reels/',
+            '../../assets/images/reels/',
             reel.id,
             '.jpg'
           );

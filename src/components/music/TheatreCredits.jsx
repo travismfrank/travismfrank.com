@@ -7,13 +7,15 @@ import generateSrcmap from '../../utils/srcmap';
 import theatreCreditsJSON from '../../assets/theatre-credits.json';
 
 // Import images
-const theatreCreditsImages = import.meta.globEager('./../../assets/images/about/theatre_credits/*');
+const theatreCreditsImages = import.meta.glob('../../assets/images/about/theatre_credits/*', {
+  eager: true,
+});
 
 function TheatreCredits() {
-  const theatreCreditsImageUrl = theatreCreditsImages['./../../assets/images/about/theatre_credits/theatre-credits.jpg'].default;
+  const theatreCreditsImageUrl = theatreCreditsImages['../../assets/images/about/theatre_credits/theatre-credits.jpg'].default;
   const theatreCreditsSrcmap = generateSrcmap(
     theatreCreditsImages,
-    './../../assets/images/about/theatre_credits/',
+    '../../assets/images/about/theatre_credits/',
     'theatre-credits',
     '.jpg'
   );

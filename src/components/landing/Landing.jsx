@@ -6,7 +6,9 @@ import generateSrcmap from '../../utils/srcmap';
 import generateSrcset from '../../utils/srcset.js';
 
 // Import images
-const landingImages = import.meta.globEager('./../../assets/images/landing/*');
+const landingImages = import.meta.glob('../../assets/images/landing/*', {
+  eager: true,
+});
 
 function Landing() {
   const [contents, setContents] = useState('');
@@ -65,10 +67,10 @@ function Landing() {
     await typewriter();
   }, [index, backspacingIndex]);
 
-  const landingImageUrl = landingImages['./../../assets/images/landing/landing_headshot.jpg'].default;
+  const landingImageUrl = landingImages['../../assets/images/landing/landing_headshot.jpg'].default;
   const landingSrcmap = generateSrcmap(
     landingImages,
-    './../../assets/images/landing/',
+    '../../assets/images/landing/',
     'landing_headshot',
     '.jpg'
   );

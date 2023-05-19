@@ -6,12 +6,20 @@ import './Musical.css';
 import './Flickity.css';
 
 // Import musical data
-const musicalJSON = import.meta.globEager('./../../assets/musicals/*.json');
+const musicalJSON = import.meta.glob('../../assets/musicals/*.json', {
+  eager: true,
+});
 
 // Import images
-export const musicalBanners = import.meta.globEager('./../../assets/images/musicals/banners/*');
-const musicalPosters = import.meta.globEager('./../../assets/images/musicals/posters/*');
-const musicalAlbums = import.meta.globEager('./../../assets/images/musicals/albums/*');
+export const musicalBanners = import.meta.glob('../../assets/images/musicals/banners/*', {
+  eager: true,
+});
+const musicalPosters = import.meta.glob('../../assets/images/musicals/posters/*', {
+  eager: true,
+});
+const musicalAlbums = import.meta.glob('../../assets/images/musicals/albums/*', {
+  eager: true,
+});
 
 import BannerShell from '../shells/BannerShell';
 import SectionToggle from '../shells/SectionToggle';
@@ -21,17 +29,17 @@ import generateSrcset from '../../utils/srcset';
 function Musical() {
   const [album, setAlbum] = useState([]);
   const { musicalName } = useParams();
-  const musicalData = musicalJSON['./../../assets/musicals/' + musicalName + '.json'];
+  const musicalData = musicalJSON['../../assets/musicals/' + musicalName + '.json'];
 
   useEffect(() => {
-    if (musicalAlbums['./../../assets/images/musicals/albums/' + musicalName + '-1.jpg']) {
+    if (musicalAlbums['../../assets/images/musicals/albums/' + musicalName + '-1.jpg']) {
       const tempAlbum = [];
       for (let num = 1; num <= 5; num++) {
         tempAlbum.push({
-          baseAlbumImageUrl: musicalAlbums['./../../assets/images/musicals/albums/' + musicalName + '-' + num + '.jpg'].default,
+          baseAlbumImageUrl: musicalAlbums['../../assets/images/musicals/albums/' + musicalName + '-' + num + '.jpg'].default,
           albumImageSrcmap: generateSrcmap(
             musicalAlbums,
-            './../../assets/images/musicals/albums/',
+            '../../assets/images/musicals/albums/',
             musicalName + '-' + num,
             '.jpg'
           )
@@ -42,19 +50,19 @@ function Musical() {
   }, [])
 
   // Banner
-  const bannerImageUrl = musicalBanners['./../../assets/images/musicals/banners/' + musicalName + '.jpg'].default;
+  const bannerImageUrl = musicalBanners['../../assets/images/musicals/banners/' + musicalName + '.jpg'].default;
   const bannerSrcmap = generateSrcmap(
     musicalBanners,
-    './../../assets/images/musicals/banners/',
+    '../../assets/images/musicals/banners/',
     musicalName,
     '.jpg'
   );
 
   // Poster
-  const posterImageUrl = musicalPosters['./../../assets/images/musicals/posters/' + musicalName + '.jpg'].default;
+  const posterImageUrl = musicalPosters['../../assets/images/musicals/posters/' + musicalName + '.jpg'].default;
   const posterSrcmap = generateSrcmap(
     musicalPosters,
-    './../../assets/images/musicals/posters/',
+    '../../assets/images/musicals/posters/',
     musicalName,
     '.jpg'
   );

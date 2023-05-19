@@ -43,10 +43,10 @@ function Musicals() {
       <div className="header spacer" />
       <div className="musical-selection-wrapper">
         {musicals.map(show => {
-          const bannerImageUrl = musicalBanners['./../../assets/images/musicals/banners/' + show.id + '.jpg'].default;
+          const bannerImageUrl = musicalBanners['../../assets/images/musicals/banners/' + show.id + '.jpg'].default;
           const bannerSrcmap = generateSrcmap(
             musicalBanners,
-            './../../assets/images/musicals/banners/',
+            '../../assets/images/musicals/banners/',
             show.id,
             '.jpg'
           );

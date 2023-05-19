@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import './Record.css';
 
 // Import record data
-const recordJSON = import.meta.glob('./../../assets/records/*.json', {
+const recordJSON = import.meta.glob('../../assets/records/*.json', {
   eager: true,
 });
 
@@ -12,7 +12,7 @@ const recordJSON = import.meta.glob('./../../assets/records/*.json', {
 import { recordImages } from './Records';
 
 // Import audio
-const recordAudio = import.meta.glob('./../../assets/audio/*.mp3', {
+const recordAudio = import.meta.glob('../../assets/audio/*.mp3', {
   eager: true,
 });
 
@@ -39,12 +39,12 @@ function Record() {
   const [sortBy, setSortBy] = useState('favorites');
 
   const { recordName } = useParams();
-  const recordData = recordJSON['./../../assets/records/' + recordName + '.json'];
+  const recordData = recordJSON['../../assets/records/' + recordName + '.json'];
 
-  const bannerImageUrl = recordImages['./../../assets/images/records/' + recordName + '.jpg'].default;
+  const bannerImageUrl = recordImages['../../assets/images/records/' + recordName + '.jpg'].default;
   const bannerSrcmap = generateSrcmap(
     recordImages,
-    './../../assets/images/records/',
+    '../../assets/images/records/',
     recordName,
     '.jpg'
   );
@@ -55,7 +55,7 @@ function Record() {
         <h2 className="tune-title">{tune.title}</h2>
         {tune.date && <p className="tune-date">{tune.date}</p>}
         <p className="tune-artist">{tune.artist}</p>
-        <AudioPlayer src={recordAudio['./../../assets/audio/' + tune.asset + '.mp3'].default}/>
+        <AudioPlayer src={recordAudio['../../assets/audio/' + tune.asset + '.mp3'].default}/>
       </div>
     );
   });

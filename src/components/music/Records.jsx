@@ -5,7 +5,7 @@ import ImageLink from '../shells/ImageLink';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-export const recordImages = import.meta.glob('./../../assets/images/records/*', {
+export const recordImages = import.meta.glob('../../assets/images/records/*', {
   eager: true,
 });
 
@@ -37,10 +37,10 @@ function Records() {
       <div className="header spacer" />
       <div className="record-selection-wrapper">
         {records.map(record => {
-          const recordImageUrl = recordImages['./../../assets/images/records/' + record.id + '.jpg'].default;
+          const recordImageUrl = recordImages['../../assets/images/records/' + record.id + '.jpg'].default;
           const recordSrcmap = generateSrcmap(
             recordImages,
-            './../../assets/images/records/',
+            '../../assets/images/records/',
             record.id,
             '.jpg'
           );

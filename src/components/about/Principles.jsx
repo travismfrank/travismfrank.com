@@ -4,13 +4,15 @@ import BannerShell from '../shells/BannerShell';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-const principlesImages = import.meta.globEager('./../../assets/images/about/principles/*');
+const principlesImages = import.meta.glob('../../assets/images/about/principles/*', {
+  eager: true,
+});
 
 function Principles() {
-  const principlesImageUrl = principlesImages['./../../assets/images/about/principles/principles.jpg'].default;
+  const principlesImageUrl = principlesImages['../../assets/images/about/principles/principles.jpg'].default;
   const principlesSrcmap = generateSrcmap(
     principlesImages,
-    './../../assets/images/about/principles/',
+    '../../assets/images/about/principles/',
     'principles',
     '.jpg'
   );

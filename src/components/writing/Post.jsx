@@ -7,7 +7,9 @@ import './Post.css';
 import { docs } from './Feed';
 
 // Import images
-const postImages = import.meta.globEager('./../../assets/images/posts/*');
+const postImages = import.meta.glob('../../assets/images/posts/*', {
+  eager: true,
+});
 
 function Post() {
   const [post, setPost] = useState({});
@@ -19,7 +21,7 @@ function Post() {
 
     // Replace image urls
     doc = doc.replace(/!\[[^\]]*\]\((.*\/+(.*))\)/g, (match, url, assetName) => {
-      const imgUrl = postImages['./../../assets/images/posts/' + assetName].default;
+      const imgUrl = postImages['../../assets/images/posts/' + assetName].default;
       return match.replace(url, window.location.origin + imgUrl);
     });
 

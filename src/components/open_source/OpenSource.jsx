@@ -7,13 +7,15 @@ import SectionToggle from '../shells/SectionToggle';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-const openSourceImages = import.meta.globEager('./../../assets/images/open_source/*');
+const openSourceImages = import.meta.glob('../../assets/images/open_source/*', {
+  eager: true,
+});
 
 function OpenSource() {
-  const openSourceImageUrl = openSourceImages['./../../assets/images/open_source/open-source.jpg'].default;
+  const openSourceImageUrl = openSourceImages['../../assets/images/open_source/open-source.jpg'].default;
   const openSourceSrcmap = generateSrcmap(
     openSourceImages,
-    './../../assets/images/open_source/',
+    '../../assets/images/open_source/',
     'open-source',
     '.jpg'
   );

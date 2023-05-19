@@ -7,13 +7,15 @@ import SectionToggle from '../shells/SectionToggle';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-const leadershipImages = import.meta.globEager('./../../assets/images/about/leadership/*');
+const leadershipImages = import.meta.glob('../../assets/images/about/leadership/*', {
+  eager: true,
+});
 
 function Leadership() {
-  const leadershipImageUrl = leadershipImages['./../../assets/images/about/leadership/leadership.jpg'].default;
+  const leadershipImageUrl = leadershipImages['../../assets/images/about/leadership/leadership.jpg'].default;
   const leadershipSrcmap = generateSrcmap(
     leadershipImages,
-    './../../assets/images/about/leadership/',
+    '../../assets/images/about/leadership/',
     'leadership',
     '.jpg'
   );

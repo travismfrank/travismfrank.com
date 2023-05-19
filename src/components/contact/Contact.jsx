@@ -6,7 +6,9 @@ import BannerShell from '../shells/BannerShell';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-const contactImages = import.meta.globEager('./../../assets/images/contact/*');
+const contactImages = import.meta.glob('../../assets/images/contact/*', {
+  eager: true,
+});
 
 function Contact() {
   const [sendStatus, setSendStatus] = useState('');
@@ -15,10 +17,10 @@ function Contact() {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  const contactImageUrl = contactImages['./../../assets/images/contact/contact.jpg'].default;
+  const contactImageUrl = contactImages['../../assets/images/contact/contact.jpg'].default;
   const contactSrcmap = generateSrcmap(
     contactImages,
-    './../../assets/images/contact/',
+    '../../assets/images/contact/',
     'contact',
     '.jpg'
   );

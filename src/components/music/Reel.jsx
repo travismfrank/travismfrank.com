@@ -5,7 +5,9 @@ import { useParams } from 'react-router-dom';
 import './Reel.css';
 
 // Import reel data
-const reelJSON = import.meta.globEager('./../../assets/reels/*.json');
+const reelJSON = import.meta.glob('../../assets/reels/*.json', {
+  eager: true,
+});
 
 // Import images
 import { reelImages } from './Reels';
@@ -15,12 +17,12 @@ import generateSrcmap from '../../utils/srcmap';
 
 function Reel() {
   const { reelName } = useParams();
-  const reelData = reelJSON['./../../assets/reels/' + reelName + '.json'];
+  const reelData = reelJSON['../../assets/reels/' + reelName + '.json'];
 
-  const bannerImageUrl = reelImages['./../../assets/images/reels/' + reelName + '.jpg'].default;
+  const bannerImageUrl = reelImages['../../assets/images/reels/' + reelName + '.jpg'].default;
   const bannerSrcmap = generateSrcmap(
     reelImages,
-    './../../assets/images/reels/',
+    '../../assets/images/reels/',
     reelName,
     '.jpg'
   );

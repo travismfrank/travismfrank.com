@@ -7,13 +7,15 @@ import SectionToggle from '../shells/SectionToggle';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-const bioImages = import.meta.globEager('./../../assets/images/about/bio/*');
+const bioImages = import.meta.glob('../../assets/images/about/bio/*', {
+  eager: true,
+});
 
 function Bio() {
-  const bioImageUrl = bioImages['./../../assets/images/about/bio/bio.jpg'].default;
+  const bioImageUrl = bioImages['../../assets/images/about/bio/bio.jpg'].default;
   const bioSrcmap = generateSrcmap(
     bioImages,
-    './../../assets/images/about/bio/',
+    '../../assets/images/about/bio/',
     'bio',
     '.jpg'
   );

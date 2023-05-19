@@ -5,13 +5,15 @@ import SectionToggle from '../shells/SectionToggle';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-const climateImages = import.meta.globEager('./../../assets/images/climate/*');
+const climateImages = import.meta.glob('../../assets/images/climate/*', {
+  eager: true,
+});
 
 function Climate() {
-  const climateImageUrl = climateImages['./../../assets/images/climate/climate.jpg'].default;
+  const climateImageUrl = climateImages['../../assets/images/climate/climate.jpg'].default;
   const climateSrcmap = generateSrcmap(
     climateImages,
-    './../../assets/images/climate/',
+    '../../assets/images/climate/',
     'climate',
     '.jpg'
   );

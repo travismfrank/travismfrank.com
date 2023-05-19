@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import './Feed.css';
 
-export const docs = import.meta.glob('./../../assets/posts/*.md', {
+export const docs = import.meta.glob('../../assets/posts/*.md', {
   as: 'raw',
 });
 
