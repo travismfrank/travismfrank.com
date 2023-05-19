@@ -11,16 +11,16 @@ export const docs = import.meta.glob('../../assets/posts/*.md', {
 function Feed() {
   const [articles, setArticles] = useState([]);
 
-  useEffect(() => {
+  useEffect(async () => {
     const articleAccumulator = [];
 
     for (const doc in docs) {
       // Parse front matter
-      const parsedDoc = fm(docs[doc]);
+      const parsedDoc = fm(await docs[doc]());
 
       articleAccumulator.push({
         content: parsedDoc.body,
-        id: doc.split('/')[5].slice(0, -3),
+        id: doc.split('/')[4].slice(0, -3),
         publishDate: parsedDoc.attributes["publish_date"],
         title: parsedDoc.attributes["title"],
         updateDate: parsedDoc.attributes["update_date"],
