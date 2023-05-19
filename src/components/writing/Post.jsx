@@ -17,7 +17,7 @@ function Post() {
   const { postId } = useParams();
 
   useEffect(async () => {
-    let doc = docs[`./../../assets/posts/${postId}.md`];
+    let doc = await docs[`../../assets/posts/${postId}.md`]();
 
     // Replace image urls
     doc = doc.replace(/!\[[^\]]*\]\((.*\/+(.*))\)/g, (match, url, assetName) => {
