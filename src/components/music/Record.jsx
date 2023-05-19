@@ -4,13 +4,17 @@ import { useParams } from 'react-router-dom';
 import './Record.css';
 
 // Import record data
-const recordJSON = import.meta.globEager('./../../assets/records/*.json');
+const recordJSON = import.meta.glob('./../../assets/records/*.json', {
+  eager: true,
+});
 
 // Import images
 import { recordImages } from './Records';
 
 // Import audio
-const recordAudio = import.meta.globEager('./../../assets/audio/*.mp3');
+const recordAudio = import.meta.glob('./../../assets/audio/*.mp3', {
+  eager: true,
+});
 
 import AudioPlayer from '../shells/AudioPlayer';
 import BannerShell from '../shells/BannerShell';

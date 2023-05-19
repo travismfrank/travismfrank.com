@@ -5,7 +5,9 @@ import ImageLink from '../shells/ImageLink';
 import generateSrcmap from '../../utils/srcmap';
 
 // Import images
-export const recordImages = import.meta.globEager('./../../assets/images/records/*');
+export const recordImages = import.meta.glob('./../../assets/images/records/*', {
+  eager: true,
+});
 
 function Records() {
   const records = [

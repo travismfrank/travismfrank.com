@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 import './Feed.css';
 
 export const docs = import.meta.glob('./../../assets/posts/*.md', {
-  assert: {
-    type: 'raw'
-  }
+  as: 'raw',
 });
 
 function Feed() {
@@ -41,10 +39,10 @@ function Feed() {
       }
       return 0;
     });
-    
+
     setArticles(articleAccumulator);
   }, []);
-  
+
   return (
     <div className="feed-wrapper">
       <div className="header">
@@ -54,7 +52,7 @@ function Feed() {
       <div className="feed-content-flex">
         <div className="feed-content-wrapper">
           <p className="feed-preamble">
-            I write words, which you can find here. I also write <Link to={"/music/musicals"}>musicals</Link> and <Link to={"/music/records/sketching-the-sky"}>jazz</Link>.        
+            I write words, which you can find here. I also write <Link to={"/music/musicals"}>musicals</Link> and <Link to={"/music/records/sketching-the-sky"}>jazz</Link>.
           </p>
           {articles && articles.map(post => {
             return(
