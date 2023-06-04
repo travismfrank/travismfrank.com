@@ -52,7 +52,7 @@ function OpenSource() {
         If you want to support my open source work, sponsor me on GitHub by clicking the button below! I'm open to running workshops for your
         team, joining your chat app, or even speaking at your conference. Let's make open source together.
       </p>
-      <iframe id="sponsorButton" src="https://github.com/sponsors/TravisFrankMTG/button" title="Sponsor TravisFrankMTG" height="35" width="116" style={{border: "0"}}></iframe>
+      <iframe id="sponsorButton" src="https://github.com/sponsors/travismfrank/button" title="Sponsor TravisFrankMTG" height="35" width="116" style={{border: "0"}}></iframe>
     </BannerShell>
   );
 }
